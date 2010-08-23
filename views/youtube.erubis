@@ -1,0 +1,5 @@
+<div class='thumb youtube'>
+<a href="<%= post.url %>">
+<img src="<%= post.thumbnail %>"/>
+</a>
+</div>

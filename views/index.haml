@@ -1,5 +1,2 @@
-- Link.youtube.each do |link|
-  %div.link{:style => "border-top:solid 1px #ccc;padding:10px 0"}
-    %h1= link.comment.post.title
-    %p= link.comment.body_html.gsub(/&lt;/,"<").gsub(/&gt;/,">")
-    %a{:href => link.url}= link.url
+- Link.from(@domain).each do |post|
+  = haml @domain.to_sym, :locals => {:post => post}

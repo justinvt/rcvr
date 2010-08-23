@@ -1,0 +1,37 @@
+Mon, 23 Aug 2010 15:59:06 GMT  ~  info  ~  Logfile created
+ ~ (0.000125) SET sql_auto_is_null = 0
+ ~ (0.000088) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003524) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003124) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000085) SET sql_auto_is_null = 0
+ ~ (0.000090) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.009784) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000093) SET sql_auto_is_null = 0
+ ~ (0.000098) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003484) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003074) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003145) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000087) SET sql_auto_is_null = 0
+ ~ (0.000088) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003084) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002777) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002596) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002986) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002610) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003105) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002747) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002796) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002740) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000086) SET sql_auto_is_null = 0
+ ~ (0.000091) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003035) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.004235) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000073) SET sql_auto_is_null = 0
+ ~ (0.000074) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002772) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003244) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.002795) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.003076) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` = 'www.youtube.com' ORDER BY `id`
+ ~ (0.000100) SET sql_auto_is_null = 0
+ ~ (0.000071) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002143) SELECT `id`, `domain`, `url`, `thumbnail`, `comment_id` FROM `links` WHERE `domain` LIKE '%wikipedia%' ORDER BY `id`

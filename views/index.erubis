@@ -1,0 +1,3 @@
+<% Link.from(@domain).each do |post| %>
+<%= erubis @domain.to_sym, :locals => {:post => post} %>
+<% end %>

@@ -33,20 +33,23 @@ class Page
   
   @@domain = "reddit.com"
   
-  @@doc    = Nokogiri::HTML(open("http://#{@@domain}"))
-  
-  @@posts  = @@doc.css("div.entry a.comments")
   
   cattr_accessor :domain,
                  :doc,
                  :posts
   
-  def self.scrape_all
+  def doc
+    Nokogiri::HTML(open( self.url ))
+  end
+  
+  def posts
+    doc.css("div.entry a.comments")
+  end
+  
+  def scrape
     posts.each do |link|
       url = link["href"]
-
-        Post.scrape(url)
-  
+      Post.scrape(url, self)
     end
   end
 

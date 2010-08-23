@@ -1,8 +1,6 @@
 class Comment
   include DataMapper::Resource
   
-
-
   property :id,  Serial
   property :kind, String
   property :author, String
@@ -19,22 +17,35 @@ class Comment
   property :downs, Integer
   property :body, Text, :lazy => false
   property :body_html, Text, :lazy => false
-  
-
-  
-  belongs_to :post, 'Post',
-   :parent_key => [:name],
-   :child_key  => [:link_id]
+  property :post_id, Integer, :default => 4
   
   has n, :links
     
+  belongs_to :post, 'Post',
+   :parent_key => [:name],
+   :child_key  => [:link_id]
+   
+  def html
+    coder = HTMLEntities.new
+    coder.decode(body_html)
+  end
+   
+  def collect_links
+    doc = Nokogiri::HTML(html)
+    links = doc.css("a").map{|a| URI.escape(a["href"])}
+    links.each{|url| 
+      parsed_url = URI.parse( url )
+      Link.create(
+        :url => url,
+        :domain =>  parsed_url.host,
+        :comment_id => name
+      ) rescue false
+    }
+  end
+    
   def self.collect_links
-    comms = all
-    comms.each do |c|
-      links = c.body_html.to_s.match(/href=\"[^\s]+\"/).to_a
-      links.each{|l| 
-        Link.create(:url => l.gsub(/href=|\"/,''), :comment_id => c.name) rescue false
-        }
+    all.each do |c|
+      c.collect_links
     end
   end
 

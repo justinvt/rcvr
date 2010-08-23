@@ -31,14 +31,17 @@ class Post
   property :hidden, Boolean
   property :likes, String
   property :json, Text
+  property :page_id, Integer
   
-  has n, :comments
+  has n, :comments, 
+    :child_key  => [:link_id], 
+    :parent_key => [:name]
   
   
   attr_accessor :json_object
   
   
-  def self.scrape(url)
+  def self.scrape(url, source_page)
     post = Post.new(:permalink => url)
     puts "scraping #{post.json_url}"
     begin
@@ -47,6 +50,7 @@ class Post
       post.author = post_data["author"]
       post.title = post_data["title"]
       post.name  = post_data["name"]
+      #post.page_id = source_page.id
       post.thumbnail = post_data["thumbnail"]
       post.url = post_data["url"]
       post.save
@@ -59,6 +63,7 @@ class Post
   end
   
   def self.parse_comments(objs)
+    puts "Parsing comments"
     objs.each do |c|
       cdata = c["data"]
       comment = Comment.create(

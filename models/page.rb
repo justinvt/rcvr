@@ -44,7 +44,9 @@ class Page
   def self.scrape_all
     posts.each do |link|
       url = link["href"]
-      Post.scrape(url)
+
+        Post.scrape(url)
+  
     end
   end
 

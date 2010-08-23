@@ -4,11 +4,15 @@ require "nokogiri"
 require "open-uri"
 require 'yajl'
 require 'yaml'
+require 'sinatra'
 
-DataMapper::Logger.new($stdout, :debug)
+
+DataMapper::Logger.new($stdout, :warn)
 DataMapper.setup(:default, 'mysql://root@localhost/metareddit?socket=/tmp/mysql.sock')
 
-Dir["models/*.rb"].each {|file| load file }
+[:models, :lib, :routes].each do |dir|
+  Dir["#{dir.to_s}/*.rb"].each {|file| load file }
+end
 
 DataMapper.finalize
 
@@ -22,5 +26,5 @@ DataMapper.auto_upgrade!
 
 #Page.scrape_all
 #Comment.collect_links
-Link.generate_index
+#Link.generate_index
 #TODO -  boot

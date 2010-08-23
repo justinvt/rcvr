@@ -1,5 +1,7 @@
 class Comment
   include DataMapper::Resource
+  
+
 
   property :id,  Serial
   property :kind, String
@@ -18,6 +20,14 @@ class Comment
   property :body, Text, :lazy => false
   property :body_html, Text, :lazy => false
   
+
+  
+  belongs_to :post, 'Post',
+   :parent_key => [:name],
+   :child_key  => [:link_id]
+  
+  has n, :links
+    
   def self.collect_links
     comms = all
     comms.each do |c|

@@ -1,0 +1,7 @@
+development:
+   adapter: mysql
+   database: metareddit
+   username: root
+   password: 
+   host: localhost
+   socket: /tmp/mysql.sock

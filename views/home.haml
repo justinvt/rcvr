@@ -1,0 +1,8 @@
+.content
+  %form{:method => :get, :action => "/youtube/"}
+    .field
+      %label
+        YouTube id or url
+      %input{:type => :text, :length => 20, :name => :video_id}
+    .field
+      %input{:type => :submit, :value => :download}

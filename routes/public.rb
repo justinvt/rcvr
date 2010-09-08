@@ -9,6 +9,8 @@ def get_stream
   end
   return v
 end
+
+
   
   get '/' do
     haml :home, :layout => :"templates/main"
@@ -24,15 +26,25 @@ end
   
   get '/youtube/audio/:video_id' do
     @v = get_stream
-    @p1 = Process.fork{
+    @spock = Spork.spork(:logger => @log) do
       @v.process_audio
       @v.post_process
-    }
-    redirect "/progress/#{@video_id}", 302
+    end
+    redirect "/downloading/#{@video_id}", 302
 
    # send_file @v.audio_path,
   #    :type => 'audio/mpeg',
   #    :disposition => 'attachment'
+  end
+  
+  get '/progress/:video_id' do
+    v = get_stream
+    content_type 'text/javascript', :charset => 'utf-8'
+    {:size => v.content_length, :progress => v.progress}.to_json
+  end
+  
+  get '/downloading/:video_id' do
+    haml :downloading, :layout => :"templates/main"
   end
   
   get '/tag/:video_id' do

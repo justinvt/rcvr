@@ -12,6 +12,7 @@ require 'sinatra'
 require 'uri'
 require 'htmlentities'
 require 'haml'
+require 'json'
 
 require 'logging'
 

@@ -8,7 +8,7 @@ USER = "justinvt"
 
 
 set :environment, ENVIRONMENT
-enable :logging, :dump_errors, :raise_errors
+enable :logging, :dump_errors#, :raise_errors
 
 LOG_PROPAGATION = (ENVIRONMENT == :development) ? "w+" : "a"
 
@@ -20,4 +20,4 @@ STDERR.reopen(log)
 
 
 DataMapper.setup(:default, 'mysql://root@localhost/youtube?socket=/tmp/mysql.sock')
-DataMapper::Model.raise_on_save_failure = true
+#DataMapper::Model.raise_on_save_failure = true

@@ -19,7 +19,7 @@ class VideoStream
   
   attr_accessor :title, :saved, :path, :video_path, :audio_path, :audio_format, :audio_processed
   
-  DOWNLOAD_DIR = File.join [File.dirname(__FILE__), "..", "public"]
+  DOWNLOAD_DIR = File.join [File.dirname(__FILE__), "..", "public", "scrape"]
   DEFAULT_AUDIO_FORMAT  = :mp3
   DEFAULT_AUDIO_BITRATE =  "192k"
   DEFAULT_TRANSCODER = :ffmpeg
@@ -103,13 +103,17 @@ class VideoStream
       return @video_destination
     end
     log "Attempting to save to #{@video_destination}"
+    last_size = 0
     begin
       FileUtils.mkdir_p File.dirname(@video_destination)
       f = File.new @tmp_destination, "w+"
       f.puts open("#{url}",
         :progress_proc => lambda {|size|
-          self.attributes = { :progress => size.to_i }
-          self.save
+          if (last_size == 0 || size - last_size > 100000)
+            self.attributes = { :progress => size.to_i }
+            self.save
+            last_size = size
+          end
         }).read
       f.close
       File.rename f.path, @video_destination

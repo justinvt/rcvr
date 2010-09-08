@@ -7,30 +7,32 @@ require 'net/http'
 require 'cgi'
 require 'rack'
 
+
+
 DEFAULT_DOWNLOAD_LOCATION = "/Volumes/justin/youtube"
 
+
+
 def log(entry)
- # puts entry
+  puts entry
 end
 
 class String
   
   def undelimit(options={})
-    log "Delimiting: " + self
     not_urls = options[:not_urls]
     delimiter = (options[:delimiter] ||= /\|/)
-    log "Delimiter is #{delimiter}"
     delimiter = Regexp.new(Regexp.escape(delimiter.to_s)) if delimiter.is_a? String
-    #p#uts "Contains " + self.match(delimiter).to_a.size.to_s + " delimiter is: (#{delimiter.source})"
     min_size = (options[:min_size] ||= 4)
+    log "Delimiting: #{self} with #{delimiter.to_s}"
     #s = CGI.unescape(self.to_s).to_s
     if !not_urls
       parts = CGI.unescape(self).split(delimiter).map(&:strip).compact.select{|st|  st =~ /^http/ }
-      log "Parts were #{parts.inspect}"
+      log "Delimited Parts were #{parts.inspect}"
       return parts.map{|st| st.gsub(/\,[0-9]+$/,'').fetch_as_url(:limit => 10)}
     else
       parts = self.split(delimiter).map(&:strip).compact
-      log "Parts were #{parts.inspect}"
+      log "Delimited  Parts were #{parts.inspect}"
       return parts
     end
   end
@@ -72,7 +74,7 @@ class String
       }
     )
   rescue => e
-    puts e.message
+    log "New format could not be saved to DB: " + e.message
   end
     log params.to_yaml
     case response
@@ -89,10 +91,8 @@ class Hash
   def dup_key(key, hash)
     key.to_a.each do |k|
       if k =~ /_map$/
-        log "map key found - #{k}"
         self[k.to_sym] = (hash[k] || hash[k.to_sym]).to_s.undelimit #rescue []
       elsif k =~ /_list$/
-         log "list key found - #{k}"
         self[k.to_sym] = (hash[k] || hash[k.to_sym]).to_s.undelimit(:delimiter => /\//, :not_urls => true ) #rescue []
       else
         self[k.to_sym] = hash[k]# rescue []
@@ -125,7 +125,7 @@ class YouTubeResource
     @config = config_hash
     @url = @config["url"]
     @headers = @config["headers"]
-    @config["query"] = @config["query"]
+    @params = @config["query"]
     @path = nil
     @saved = false
     if @parent
@@ -136,7 +136,7 @@ class YouTubeResource
     else
       @user = @title = @video_id = @length = nil
     end
-    puts "NEW YOUTUBE RES: #{@config.to_yaml}"
+    log "NEW YOUTUBE RES: #{@config.to_yaml}"
     #fh = `curl -m 7 -s -r 0-2000 \"#{url}\" > tmp.tmp`
     #fh = `mdls tmp.tmp`
     #FileUtils.rm "tmp.tmp"
@@ -148,6 +148,9 @@ class YouTubeResource
         :signature  =>  @config["query"]["signature"].to_s,
         :mime =>  @config["headers"]["content-type"].to_s,
         :format_id =>  @config["query"]["itag"].to_s,
+        :http_status => config_hash["response"].to_s,
+        :params => @params.to_yaml,
+        :headers => @headers.to_yaml,
         :url => @url.to_s#,
         #:file_header => fh
         })
@@ -300,16 +303,12 @@ class YouTube
      parse_stream_list(:fmt_stream_map, :stream_formats)
      parse_stream_list(:fmt_url_map, :url_formats)
      @full_config.merge!(@short_config)
-     log @full_config.to_yaml
+     #log @full_config.to_yaml
      return @full_config
   end
   
-
-  
-
   
   def all_streams
-    log   full_config[:fmt_stream_map].size
     return full_config[:fmt_stream_map]
   end
   

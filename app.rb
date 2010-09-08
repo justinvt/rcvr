@@ -13,12 +13,16 @@ require 'uri'
 require 'htmlentities'
 require 'haml'
 
+require 'logging'
+
+ENVIRONMENT =  :development
+ROOT        =  File.dirname(__FILE__)
+LOG_PREFIX  =  File.join(ROOT, ENVIRONMENT.to_s)
+DM_LOG      =  [LOG_PREFIX,"dm","log"].join(".")
+APP_LOG     =  [LOG_PREFIX,"app","log"].join(".")
+LOG_LEVEL   = :debug
 
 
-
-DataMapper::Logger.new("dev.log", :debug)
-DataMapper.setup(:default, 'mysql://root@localhost/youtube?socket=/tmp/mysql.sock')
-DataMapper::Model.raise_on_save_failure = true
 
 [:config,  :models, :lib, :routes].each do |dir|
   Dir["#{dir.to_s}/*.rb"].each {|file| load file }
@@ -26,20 +30,8 @@ end
 
 DataMapper.finalize
 
-mime_type :flv, 'video/x-flv'
-mime_type :mp4, 'video/mp4'
-
-
 
 #DataMapper.auto_migrate!
 DataMapper.auto_upgrade!
 
 
-
-
-
-#page = Page.create(:url => "http://www.reddit.com")
-#page.scrape
-#Comment.collect_links
-#Link.generate_index
-#TODO -  boot

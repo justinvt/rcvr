@@ -151,6 +151,7 @@ class YouTubeResource
         :http_status => config_hash["response"].to_s,
         :params => @params.to_yaml,
         :headers => @headers.to_yaml,
+        :content_length => @config["headers"]["content-length"].to_i,
         :url => @url.to_s#,
         #:file_header => fh
         })

@@ -11,6 +11,9 @@ class VideoStream
   property :params, Text
   property :headers, Text
   property :http_status, String
+  property :progress, Integer
+  property :content_length, Integer
+  property :audio_filename, Text
   
  # validates_uniqueness_of :url
   
@@ -33,7 +36,7 @@ class VideoStream
    # Basically strip out the non-ascii alphabets too 
    # and replace with x. 
    # You don't want all _ :)
-    fn.gsub!(/[^0-9A-Za-z.\-]/, 'x')
+    fn.gsub!(/[^0-9A-Za-z.\- ]/, 'x')
     return fn
   end
 
@@ -69,11 +72,11 @@ class VideoStream
      File.expand_path(File.join(location, video_id))
   end
   
-  def default_video_destination(location)
+  def default_video_destination(location = DOWNLOAD_DIR)
     File.join stream_directory(location), filename
   end
   
-  def default_audio_destination(location)
+  def default_audio_destination(location = DOWNLOAD_DIR)
     File.join stream_directory(location), audio_filename
   end
   
@@ -103,7 +106,11 @@ class VideoStream
     begin
       FileUtils.mkdir_p File.dirname(@video_destination)
       f = File.new @tmp_destination, "w+"
-      f.puts open("#{url}").read
+      f.puts open("#{url}",
+        :progress_proc => lambda {|size|
+          self.attributes = { :progress => size.to_i }
+          self.save
+        }).read
       f.close
       File.rename f.path, @video_destination
     rescue => e
@@ -152,6 +159,19 @@ class VideoStream
     @audio_path = @audio_destination
     @audio_processed = true
     return @audio_path
+  end
+  
+  def post_process
+    file_location = (@audio_path || default_audio_destination)
+    info_script = File.join ROOT, "scripts", "find_info.rb"
+    tag_script     = File.join ROOT, "scripts", "add_tag.rb"
+    puts "Renamin #{file_location}"
+    result = IO.popen("echo \"#{file_location}\" | #{info_script} | #{tag_script}").read
+    puts "new filename #{result}"
+    @audio_path = file_location
+    self.attributes = { :audio_filename =>file_location }
+    self.save
+    return result
   end
   
 end

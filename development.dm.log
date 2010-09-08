@@ -1,0 +1,1392 @@
+ ~ (0.000541) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000278) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000914) UPDATE `video_streams` SET `progress` = 7106728 WHERE `id` = 41
+ ~ (0.000308) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000981) UPDATE `video_streams` SET `progress` = 7108076 WHERE `id` = 41
+ ~ (0.000316) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000946) UPDATE `video_streams` SET `progress` = 7109424 WHERE `id` = 41
+ ~ (0.000314) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000934) UPDATE `video_streams` SET `progress` = 7110772 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000967) UPDATE `video_streams` SET `progress` = 7113468 WHERE `id` = 41
+ ~ (0.000322) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000962) UPDATE `video_streams` SET `progress` = 7114816 WHERE `id` = 41
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000610) UPDATE `video_streams` SET `progress` = 7122904 WHERE `id` = 41
+ ~ (0.000297) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000972) UPDATE `video_streams` SET `progress` = 7124252 WHERE `id` = 41
+ ~ (0.000272) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000886) UPDATE `video_streams` SET `progress` = 7125600 WHERE `id` = 41
+ ~ (0.000307) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000997) UPDATE `video_streams` SET `progress` = 7126948 WHERE `id` = 41
+ ~ (0.000268) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000603) UPDATE `video_streams` SET `progress` = 7136384 WHERE `id` = 41
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002016) UPDATE `video_streams` SET `progress` = 7137732 WHERE `id` = 41
+ ~ (0.000281) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000504) UPDATE `video_streams` SET `progress` = 7140428 WHERE `id` = 41
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000478) UPDATE `video_streams` SET `progress` = 7144472 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000557) UPDATE `video_streams` SET `progress` = 7145820 WHERE `id` = 41
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000476) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000685) UPDATE `video_streams` SET `progress` = 7147168 WHERE `id` = 41
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000512) UPDATE `video_streams` SET `progress` = 7149864 WHERE `id` = 41
+ ~ (0.000376) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000870) UPDATE `video_streams` SET `progress` = 7151212 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000560) UPDATE `video_streams` SET `progress` = 7156604 WHERE `id` = 41
+ ~ (0.000314) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000982) UPDATE `video_streams` SET `progress` = 7157952 WHERE `id` = 41
+ ~ (0.000278) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000653) UPDATE `video_streams` SET `progress` = 7174336 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000950) UPDATE `video_streams` SET `progress` = 7177648 WHERE `id` = 41
+ ~ (0.000336) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002184) UPDATE `video_streams` SET `progress` = 7178996 WHERE `id` = 41
+ ~ (0.000303) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000545) UPDATE `video_streams` SET `progress` = 7180344 WHERE `id` = 41
+ ~ (0.000283) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.007200) UPDATE `video_streams` SET `progress` = 7181692 WHERE `id` = 41
+ ~ (0.000316) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000610) UPDATE `video_streams` SET `progress` = 7187084 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000917) UPDATE `video_streams` SET `progress` = 7188432 WHERE `id` = 41
+ ~ (0.000280) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000526) UPDATE `video_streams` SET `progress` = 7191128 WHERE `id` = 41
+ ~ (0.000309) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000944) UPDATE `video_streams` SET `progress` = 7192476 WHERE `id` = 41
+ ~ (0.000288) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000826) UPDATE `video_streams` SET `progress` = 7193824 WHERE `id` = 41
+ ~ (0.000261) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000569) UPDATE `video_streams` SET `progress` = 7196520 WHERE `id` = 41
+ ~ (0.000384) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000933) UPDATE `video_streams` SET `progress` = 7197868 WHERE `id` = 41
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000643) UPDATE `video_streams` SET `progress` = 7207304 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000235) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000906) UPDATE `video_streams` SET `progress` = 7208652 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000394) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000531) UPDATE `video_streams` SET `progress` = 7210000 WHERE `id` = 41
+ ~ (0.000319) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000506) UPDATE `video_streams` SET `progress` = 7212696 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000613) UPDATE `video_streams` SET `progress` = 7214044 WHERE `id` = 41
+ ~ (0.001126) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000245) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000628) UPDATE `video_streams` SET `progress` = 7215392 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001192) UPDATE `video_streams` SET `progress` = 7218280 WHERE `id` = 41
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000985) UPDATE `video_streams` SET `progress` = 7219628 WHERE `id` = 41
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000259) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000629) UPDATE `video_streams` SET `progress` = 7220976 WHERE `id` = 41
+ ~ (0.000257) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000561) UPDATE `video_streams` SET `progress` = 7223672 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000526) UPDATE `video_streams` SET `progress` = 7225020 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000517) UPDATE `video_streams` SET `progress` = 7227168 WHERE `id` = 41
+ ~ (0.000257) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001256) UPDATE `video_streams` SET `progress` = 7229864 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000275) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001002) UPDATE `video_streams` SET `progress` = 7231212 WHERE `id` = 41
+ ~ (0.000307) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000231) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000831) UPDATE `video_streams` SET `progress` = 7232560 WHERE `id` = 41
+ ~ (0.000288) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000534) UPDATE `video_streams` SET `progress` = 7237296 WHERE `id` = 41
+ ~ (0.000268) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000466) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000257) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000693) UPDATE `video_streams` SET `progress` = 7244036 WHERE `id` = 41
+ ~ (0.000316) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001247) UPDATE `video_streams` SET `progress` = 7245384 WHERE `id` = 41
+ ~ (0.000310) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000625) UPDATE `video_streams` SET `progress` = 7261560 WHERE `id` = 41
+ ~ (0.001111) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000244) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000930) UPDATE `video_streams` SET `progress` = 7262908 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000648) UPDATE `video_streams` SET `progress` = 7264256 WHERE `id` = 41
+ ~ (0.000262) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000559) UPDATE `video_streams` SET `progress` = 7265604 WHERE `id` = 41
+ ~ (0.000277) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000617) UPDATE `video_streams` SET `progress` = 7267448 WHERE `id` = 41
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001033) UPDATE `video_streams` SET `progress` = 7268796 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000638) UPDATE `video_streams` SET `progress` = 7270984 WHERE `id` = 41
+ ~ (0.000284) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000261) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000989) UPDATE `video_streams` SET `progress` = 7272332 WHERE `id` = 41
+ ~ (0.000273) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000662) UPDATE `video_streams` SET `progress` = 7276376 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000494) UPDATE `video_streams` SET `progress` = 7277724 WHERE `id` = 41
+ ~ (0.000256) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000559) UPDATE `video_streams` SET `progress` = 7283116 WHERE `id` = 41
+ ~ (0.000268) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000556) UPDATE `video_streams` SET `progress` = 7284464 WHERE `id` = 41
+ ~ (0.000241) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000465) UPDATE `video_streams` SET `progress` = 7287160 WHERE `id` = 41
+ ~ (0.000304) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001295) UPDATE `video_streams` SET `progress` = 7288508 WHERE `id` = 41
+ ~ (0.000340) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000646) UPDATE `video_streams` SET `progress` = 7293900 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000627) UPDATE `video_streams` SET `progress` = 7295248 WHERE `id` = 41
+ ~ (0.000294) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000727) UPDATE `video_streams` SET `progress` = 7303336 WHERE `id` = 41
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000222) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000537) UPDATE `video_streams` SET `progress` = 7315164 WHERE `id` = 41
+ ~ (0.000325) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001017) UPDATE `video_streams` SET `progress` = 7316512 WHERE `id` = 41
+ ~ (0.000279) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000537) UPDATE `video_streams` SET `progress` = 7332896 WHERE `id` = 41
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000564) UPDATE `video_streams` SET `progress` = 7338080 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000498) UPDATE `video_streams` SET `progress` = 7340776 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000559) UPDATE `video_streams` SET `progress` = 7343472 WHERE `id` = 41
+ ~ (0.000325) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000257) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002243) UPDATE `video_streams` SET `progress` = 7344820 WHERE `id` = 41
+ ~ (0.000295) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000669) UPDATE `video_streams` SET `progress` = 7356952 WHERE `id` = 41
+ ~ (0.000307) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.017750) UPDATE `video_streams` SET `progress` = 7358300 WHERE `id` = 41
+ ~ (0.000323) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000562) UPDATE `video_streams` SET `progress` = 7359648 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.039062) UPDATE `video_streams` SET `progress` = 7376032 WHERE `id` = 41
+ ~ (0.000304) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000476) UPDATE `video_streams` SET `progress` = 7387956 WHERE `id` = 41
+ ~ (0.000351) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000522) UPDATE `video_streams` SET `progress` = 7389304 WHERE `id` = 41
+ ~ (0.000256) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000180) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000504) UPDATE `video_streams` SET `progress` = 7389720 WHERE `id` = 41
+ ~ (0.000238) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.005654) UPDATE `video_streams` SET `progress` = 7391068 WHERE `id` = 41
+ ~ (0.000373) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001250) UPDATE `video_streams` SET `progress` = 7396460 WHERE `id` = 41
+ ~ (0.000294) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000317) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.015477) UPDATE `video_streams` SET `progress` = 7398408 WHERE `id` = 41
+ ~ (0.000328) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000542) UPDATE `video_streams` SET `progress` = 7408544 WHERE `id` = 41
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000478) UPDATE `video_streams` SET `progress` = 7413936 WHERE `id` = 41
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000555) UPDATE `video_streams` SET `progress` = 7420128 WHERE `id` = 41
+ ~ (0.000286) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.011989) UPDATE `video_streams` SET `progress` = 7421476 WHERE `id` = 41
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000229) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.006427) UPDATE `video_streams` SET `progress` = 7422824 WHERE `id` = 41
+ ~ (0.000302) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.008951) UPDATE `video_streams` SET `progress` = 7428216 WHERE `id` = 41
+ ~ (0.000423) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000827) UPDATE `video_streams` SET `progress` = 7432260 WHERE `id` = 41
+ ~ (0.000487) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000659) UPDATE `video_streams` SET `progress` = 7433608 WHERE `id` = 41
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000364) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000259) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000655) UPDATE `video_streams` SET `progress` = 7436304 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000550) UPDATE `video_streams` SET `progress` = 7437652 WHERE `id` = 41
+ ~ (0.000303) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.017214) UPDATE `video_streams` SET `progress` = 7439000 WHERE `id` = 41
+ ~ (0.000313) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000697) UPDATE `video_streams` SET `progress` = 7443044 WHERE `id` = 41
+ ~ (0.000284) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000753) UPDATE `video_streams` SET `progress` = 7444392 WHERE `id` = 41
+ ~ (0.000318) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000988) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000959) UPDATE `video_streams` SET `progress` = 7445740 WHERE `id` = 41
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000521) UPDATE `video_streams` SET `progress` = 7447088 WHERE `id` = 41
+ ~ (0.000343) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000975) UPDATE `video_streams` SET `progress` = 7448436 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000994) UPDATE `video_streams` SET `progress` = 7453828 WHERE `id` = 41
+ ~ (0.000326) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001017) UPDATE `video_streams` SET `progress` = 7455176 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000520) UPDATE `video_streams` SET `progress` = 7460568 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000649) UPDATE `video_streams` SET `progress` = 7461916 WHERE `id` = 41
+ ~ (0.000247) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000614) UPDATE `video_streams` SET `progress` = 7466264 WHERE `id` = 41
+ ~ (0.000238) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000576) UPDATE `video_streams` SET `progress` = 7469360 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000981) UPDATE `video_streams` SET `progress` = 7470708 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000582) UPDATE `video_streams` SET `progress` = 7473404 WHERE `id` = 41
+ ~ (0.000256) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000601) UPDATE `video_streams` SET `progress` = 7476100 WHERE `id` = 41
+ ~ (0.000275) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000528) UPDATE `video_streams` SET `progress` = 7477448 WHERE `id` = 41
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000578) UPDATE `video_streams` SET `progress` = 7480144 WHERE `id` = 41
+ ~ (0.000248) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001103) UPDATE `video_streams` SET `progress` = 7482840 WHERE `id` = 41
+ ~ (0.000313) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000970) UPDATE `video_streams` SET `progress` = 7484188 WHERE `id` = 41
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000601) UPDATE `video_streams` SET `progress` = 7485536 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000869) UPDATE `video_streams` SET `progress` = 7486884 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000551) UPDATE `video_streams` SET `progress` = 7489580 WHERE `id` = 41
+ ~ (0.000270) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000533) UPDATE `video_streams` SET `progress` = 7490928 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001277) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000631) UPDATE `video_streams` SET `progress` = 7493624 WHERE `id` = 41
+ ~ (0.000308) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000884) UPDATE `video_streams` SET `progress` = 7494972 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000995) UPDATE `video_streams` SET `progress` = 7496320 WHERE `id` = 41
+ ~ (0.001051) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000612) UPDATE `video_streams` SET `progress` = 7499016 WHERE `id` = 41
+ ~ (0.000280) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001326) UPDATE `video_streams` SET `progress` = 7500364 WHERE `id` = 41
+ ~ (0.000288) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000562) UPDATE `video_streams` SET `progress` = 7501712 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000503) UPDATE `video_streams` SET `progress` = 7504408 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000580) UPDATE `video_streams` SET `progress` = 7508256 WHERE `id` = 41
+ ~ (0.000350) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000241) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001071) UPDATE `video_streams` SET `progress` = 7509604 WHERE `id` = 41
+ ~ (0.000313) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000499) UPDATE `video_streams` SET `progress` = 7512300 WHERE `id` = 41
+ ~ (0.000293) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000602) UPDATE `video_streams` SET `progress` = 7513648 WHERE `id` = 41
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001451) UPDATE `video_streams` SET `progress` = 7517692 WHERE `id` = 41
+ ~ (0.000355) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000277) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000271) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000889) UPDATE `video_streams` SET `progress` = 7519040 WHERE `id` = 41
+ ~ (0.000271) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000698) UPDATE `video_streams` SET `progress` = 7521736 WHERE `id` = 41
+ ~ (0.000235) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000151) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000545) UPDATE `video_streams` SET `progress` = 7521944 WHERE `id` = 41
+ ~ (0.000301) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000659) UPDATE `video_streams` SET `progress` = 7523292 WHERE `id` = 41
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000835) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000633) UPDATE `video_streams` SET `progress` = 7525832 WHERE `id` = 41
+ ~ (0.000315) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000296) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000909) UPDATE `video_streams` SET `progress` = 7527180 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001311) UPDATE `video_streams` SET `progress` = 7528528 WHERE `id` = 41
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000273) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000625) UPDATE `video_streams` SET `progress` = 7531224 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001006) UPDATE `video_streams` SET `progress` = 7532572 WHERE `id` = 41
+ ~ (0.000302) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000536) UPDATE `video_streams` SET `progress` = 7535268 WHERE `id` = 41
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001070) UPDATE `video_streams` SET `progress` = 7536616 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000540) UPDATE `video_streams` SET `progress` = 7537964 WHERE `id` = 41
+ ~ (0.000235) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000650) UPDATE `video_streams` SET `progress` = 7539312 WHERE `id` = 41
+ ~ (0.000304) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001296) UPDATE `video_streams` SET `progress` = 7540660 WHERE `id` = 41
+ ~ (0.000318) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000985) UPDATE `video_streams` SET `progress` = 7542008 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000519) UPDATE `video_streams` SET `progress` = 7543356 WHERE `id` = 41
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000582) UPDATE `video_streams` SET `progress` = 7546052 WHERE `id` = 41
+ ~ (0.000294) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001042) UPDATE `video_streams` SET `progress` = 7547400 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000561) UPDATE `video_streams` SET `progress` = 7550096 WHERE `id` = 41
+ ~ (0.000275) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000551) UPDATE `video_streams` SET `progress` = 7552792 WHERE `id` = 41
+ ~ (0.000371) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000965) UPDATE `video_streams` SET `progress` = 7554140 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001163) UPDATE `video_streams` SET `progress` = 7563576 WHERE `id` = 41
+ ~ (0.000317) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000893) UPDATE `video_streams` SET `progress` = 7564924 WHERE `id` = 41
+ ~ (0.000262) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000271) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000641) UPDATE `video_streams` SET `progress` = 7568968 WHERE `id` = 41
+ ~ (0.000330) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000991) UPDATE `video_streams` SET `progress` = 7570316 WHERE `id` = 41
+ ~ (0.000300) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000630) UPDATE `video_streams` SET `progress` = 7571664 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000547) UPDATE `video_streams` SET `progress` = 7573012 WHERE `id` = 41
+ ~ (0.000329) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000872) UPDATE `video_streams` SET `progress` = 7574360 WHERE `id` = 41
+ ~ (0.000343) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001234) UPDATE `video_streams` SET `progress` = 7578404 WHERE `id` = 41
+ ~ (0.000307) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000546) UPDATE `video_streams` SET `progress` = 7579752 WHERE `id` = 41
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001216) UPDATE `video_streams` SET `progress` = 7581100 WHERE `id` = 41
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000968) UPDATE `video_streams` SET `progress` = 7583796 WHERE `id` = 41
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000970) UPDATE `video_streams` SET `progress` = 7586492 WHERE `id` = 41
+ ~ (0.000315) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000913) UPDATE `video_streams` SET `progress` = 7587840 WHERE `id` = 41
+ ~ (0.000259) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000571) UPDATE `video_streams` SET `progress` = 7590536 WHERE `id` = 41
+ ~ (0.000344) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000182) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.048833) UPDATE `video_streams` SET `progress` = 7591884 WHERE `id` = 41
+ ~ (0.000310) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000624) UPDATE `video_streams` SET `progress` = 7608268 WHERE `id` = 41
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000494) UPDATE `video_streams` SET `progress` = 7612104 WHERE `id` = 41
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000493) UPDATE `video_streams` SET `progress` = 7622888 WHERE `id` = 41
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000580) UPDATE `video_streams` SET `progress` = 7628280 WHERE `id` = 41
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000581) UPDATE `video_streams` SET `progress` = 7641760 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001005) UPDATE `video_streams` SET `progress` = 7643108 WHERE `id` = 41
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000955) UPDATE `video_streams` SET `progress` = 7651196 WHERE `id` = 41
+ ~ (0.000323) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000933) UPDATE `video_streams` SET `progress` = 7652544 WHERE `id` = 41
+ ~ (0.000314) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000617) UPDATE `video_streams` SET `progress` = 7655240 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000689) UPDATE `video_streams` SET `progress` = 7656588 WHERE `id` = 41
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000583) UPDATE `video_streams` SET `progress` = 7667372 WHERE `id` = 41
+ ~ (0.000306) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.008331) UPDATE `video_streams` SET `progress` = 7668720 WHERE `id` = 41
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000698) UPDATE `video_streams` SET `progress` = 7679504 WHERE `id` = 41
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002436) UPDATE `video_streams` SET `progress` = 7680852 WHERE `id` = 41
+ ~ (0.000350) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000795) UPDATE `video_streams` SET `progress` = 7683548 WHERE `id` = 41
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000419) UPDATE `video_streams` SET `progress` = 7699932 WHERE `id` = 41
+ ~ (0.000245) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000173) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000152) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.008768) UPDATE `video_streams` SET `progress` = 7702420 WHERE `id` = 41
+ ~ (0.000364) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001093) UPDATE `video_streams` SET `progress` = 7703768 WHERE `id` = 41
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000477) UPDATE `video_streams` SET `progress` = 7707812 WHERE `id` = 41
+ ~ (0.000319) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000676) UPDATE `video_streams` SET `progress` = 7709160 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000559) UPDATE `video_streams` SET `progress` = 7711856 WHERE `id` = 41
+ ~ (0.000283) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000571) UPDATE `video_streams` SET `progress` = 7714552 WHERE `id` = 41
+ ~ (0.000272) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000229) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000888) UPDATE `video_streams` SET `progress` = 7717248 WHERE `id` = 41
+ ~ (0.000347) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001023) UPDATE `video_streams` SET `progress` = 7723988 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.004681) UPDATE `video_streams` SET `progress` = 7734772 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000712) UPDATE `video_streams` SET `progress` = 7736120 WHERE `id` = 41
+ ~ (0.000270) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000927) UPDATE `video_streams` SET `progress` = 7740164 WHERE `id` = 41
+ ~ (0.000284) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000924) UPDATE `video_streams` SET `progress` = 7741512 WHERE `id` = 41
+ ~ (0.000273) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000518) UPDATE `video_streams` SET `progress` = 7748724 WHERE `id` = 41
+ ~ (0.000334) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001019) UPDATE `video_streams` SET `progress` = 7750072 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000587) UPDATE `video_streams` SET `progress` = 7751420 WHERE `id` = 41
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000617) UPDATE `video_streams` SET `progress` = 7752768 WHERE `id` = 41
+ ~ (0.000322) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.010238) UPDATE `video_streams` SET `progress` = 7754116 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001054) UPDATE `video_streams` SET `progress` = 7762204 WHERE `id` = 41
+ ~ (0.000308) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.005318) UPDATE `video_streams` SET `progress` = 7763552 WHERE `id` = 41
+ ~ (0.000329) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000686) UPDATE `video_streams` SET `progress` = 7763760 WHERE `id` = 41
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000457) UPDATE `video_streams` SET `progress` = 7767448 WHERE `id` = 41
+ ~ (0.000247) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000560) UPDATE `video_streams` SET `progress` = 7770144 WHERE `id` = 41
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000513) UPDATE `video_streams` SET `progress` = 7771492 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000222) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000620) UPDATE `video_streams` SET `progress` = 7775536 WHERE `id` = 41
+ ~ (0.000322) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000997) UPDATE `video_streams` SET `progress` = 7776884 WHERE `id` = 41
+ ~ (0.000258) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000848) UPDATE `video_streams` SET `progress` = 7783624 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000982) UPDATE `video_streams` SET `progress` = 7784972 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000999) UPDATE `video_streams` SET `progress` = 7790364 WHERE `id` = 41
+ ~ (0.000278) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000222) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001000) UPDATE `video_streams` SET `progress` = 7791712 WHERE `id` = 41
+ ~ (0.000316) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001024) UPDATE `video_streams` SET `progress` = 7793060 WHERE `id` = 41
+ ~ (0.000270) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000589) UPDATE `video_streams` SET `progress` = 7795756 WHERE `id` = 41
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000575) UPDATE `video_streams` SET `progress` = 7798452 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000231) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000941) UPDATE `video_streams` SET `progress` = 7799800 WHERE `id` = 41
+ ~ (0.000286) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000615) UPDATE `video_streams` SET `progress` = 7805192 WHERE `id` = 41
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000573) UPDATE `video_streams` SET `progress` = 7807888 WHERE `id` = 41
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000231) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000543) UPDATE `video_streams` SET `progress` = 7813884 WHERE `id` = 41
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000510) UPDATE `video_streams` SET `progress` = 7817928 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000229) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001012) UPDATE `video_streams` SET `progress` = 7819276 WHERE `id` = 41
+ ~ (0.000270) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000534) UPDATE `video_streams` SET `progress` = 7821972 WHERE `id` = 41
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000651) UPDATE `video_streams` SET `progress` = 7823320 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000614) UPDATE `video_streams` SET `progress` = 7827364 WHERE `id` = 41
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000551) UPDATE `video_streams` SET `progress` = 7830060 WHERE `id` = 41
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000828) UPDATE `video_streams` SET `progress` = 7835452 WHERE `id` = 41
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000557) UPDATE `video_streams` SET `progress` = 7836800 WHERE `id` = 41
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000530) UPDATE `video_streams` SET `progress` = 7842192 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000556) UPDATE `video_streams` SET `progress` = 7843540 WHERE `id` = 41
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000559) UPDATE `video_streams` SET `progress` = 7848636 WHERE `id` = 41
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000231) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000631) UPDATE `video_streams` SET `progress` = 7849984 WHERE `id` = 41
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000548) UPDATE `video_streams` SET `progress` = 7855376 WHERE `id` = 41
+ ~ (0.000321) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000234) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000875) UPDATE `video_streams` SET `progress` = 7856724 WHERE `id` = 41
+ ~ (0.000245) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000584) UPDATE `video_streams` SET `progress` = 7858072 WHERE `id` = 41
+ ~ (0.000306) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000892) UPDATE `video_streams` SET `progress` = 7859420 WHERE `id` = 41
+ ~ (0.000314) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001002) UPDATE `video_streams` SET `progress` = 7860768 WHERE `id` = 41
+ ~ (0.000279) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000628) UPDATE `video_streams` SET `progress` = 7862116 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000567) UPDATE `video_streams` SET `progress` = 7863464 WHERE `id` = 41
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000523) UPDATE `video_streams` SET `progress` = 7866160 WHERE `id` = 41
+ ~ (0.000321) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000248) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000832) UPDATE `video_streams` SET `progress` = 7867508 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000241) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001595) UPDATE `video_streams` SET `progress` = 7871552 WHERE `id` = 41
+ ~ (0.000329) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000549) UPDATE `video_streams` SET `progress` = 7872900 WHERE `id` = 41
+ ~ (0.000346) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000727) UPDATE `video_streams` SET `progress` = 7876944 WHERE `id` = 41
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000546) UPDATE `video_streams` SET `progress` = 7882336 WHERE `id` = 41
+ ~ (0.000304) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000609) UPDATE `video_streams` SET `progress` = 7883684 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000609) UPDATE `video_streams` SET `progress` = 7885032 WHERE `id` = 41
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000566) UPDATE `video_streams` SET `progress` = 7901312 WHERE `id` = 41
+ ~ (0.000323) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001022) UPDATE `video_streams` SET `progress` = 7902312 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000260) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000594) UPDATE `video_streams` SET `progress` = 7903660 WHERE `id` = 41
+ ~ (0.000402) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000247) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000510) UPDATE `video_streams` SET `progress` = 7905008 WHERE `id` = 41
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000566) UPDATE `video_streams` SET `progress` = 7909352 WHERE `id` = 41
+ ~ (0.000261) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001256) UPDATE `video_streams` SET `progress` = 7910700 WHERE `id` = 41
+ ~ (0.000262) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001012) UPDATE `video_streams` SET `progress` = 7916692 WHERE `id` = 41
+ ~ (0.000328) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000890) UPDATE `video_streams` SET `progress` = 7918040 WHERE `id` = 41
+ ~ (0.000258) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000562) UPDATE `video_streams` SET `progress` = 7922084 WHERE `id` = 41
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000482) UPDATE `video_streams` SET `progress` = 7924780 WHERE `id` = 41
+ ~ (0.000398) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.008319) UPDATE `video_streams` SET `progress` = 7926128 WHERE `id` = 41
+ ~ (0.000296) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000733) UPDATE `video_streams` SET `progress` = 7942512 WHERE `id` = 41
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000226) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.009620) UPDATE `video_streams` SET `progress` = 7946348 WHERE `id` = 41
+ ~ (0.000388) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.005201) UPDATE `video_streams` SET `progress` = 7947696 WHERE `id` = 41
+ ~ (0.000585) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.071267) UPDATE `video_streams` SET `progress` = 7959828 WHERE `id` = 41
+ ~ (0.000611) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.014898) UPDATE `video_streams` SET `progress` = 7976212 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000619) UPDATE `video_streams` SET `progress` = 7982900 WHERE `id` = 41
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000568) UPDATE `video_streams` SET `progress` = 7984848 WHERE `id` = 41
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000625) UPDATE `video_streams` SET `progress` = 7989092 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000360) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000661) UPDATE `video_streams` SET `progress` = 7991788 WHERE `id` = 41
+ ~ (0.000329) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000661) UPDATE `video_streams` SET `progress` = 7993136 WHERE `id` = 41
+ ~ (0.000284) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000531) UPDATE `video_streams` SET `progress` = 7994484 WHERE `id` = 41
+ ~ (0.000262) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.013774) UPDATE `video_streams` SET `progress` = 7998528 WHERE `id` = 41
+ ~ (0.000321) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000730) UPDATE `video_streams` SET `progress` = 7999876 WHERE `id` = 41
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000579) UPDATE `video_streams` SET `progress` = 8001224 WHERE `id` = 41
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001014) UPDATE `video_streams` SET `progress` = 8002572 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000950) UPDATE `video_streams` SET `progress` = 8011884 WHERE `id` = 41
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000235) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002183) UPDATE `video_streams` SET `progress` = 8013232 WHERE `id` = 41
+ ~ (0.000293) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000227) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000570) UPDATE `video_streams` SET `progress` = 8017276 WHERE `id` = 41
+ ~ (0.000335) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000608) UPDATE `video_streams` SET `progress` = 8023544 WHERE `id` = 41
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000595) UPDATE `video_streams` SET `progress` = 8028936 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000624) UPDATE `video_streams` SET `progress` = 8030284 WHERE `id` = 41
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000639) UPDATE `video_streams` SET `progress` = 8039372 WHERE `id` = 41
+ ~ (0.000344) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000615) UPDATE `video_streams` SET `progress` = 8040720 WHERE `id` = 41
+ ~ (0.000234) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000571) UPDATE `video_streams` SET `progress` = 8042068 WHERE `id` = 41
+ ~ (0.000326) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000535) UPDATE `video_streams` SET `progress` = 8043416 WHERE `id` = 41
+ ~ (0.000542) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000291) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000772) UPDATE `video_streams` SET `progress` = 8059800 WHERE `id` = 41
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000151) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000573) UPDATE `video_streams` SET `progress` = 8060044 WHERE `id` = 41
+ ~ (0.000313) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000236) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000918) UPDATE `video_streams` SET `progress` = 8061392 WHERE `id` = 41
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000764) UPDATE `video_streams` SET `progress` = 8065436 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000547) UPDATE `video_streams` SET `progress` = 8066784 WHERE `id` = 41
+ ~ (0.000282) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000536) UPDATE `video_streams` SET `progress` = 8074324 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000526) UPDATE `video_streams` SET `progress` = 8077020 WHERE `id` = 41
+ ~ (0.000409) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000704) UPDATE `video_streams` SET `progress` = 8077420 WHERE `id` = 41
+ ~ (0.000336) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000895) UPDATE `video_streams` SET `progress` = 8078768 WHERE `id` = 41
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000576) UPDATE `video_streams` SET `progress` = 8081464 WHERE `id` = 41
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000577) UPDATE `video_streams` SET `progress` = 8082812 WHERE `id` = 41
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000539) UPDATE `video_streams` SET `progress` = 8088204 WHERE `id` = 41
+ ~ (0.000297) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001000) UPDATE `video_streams` SET `progress` = 8089552 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000924) UPDATE `video_streams` SET `progress` = 8105936 WHERE `id` = 41
+ ~ (0.000285) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000876) UPDATE `video_streams` SET `progress` = 8106480 WHERE `id` = 41
+ ~ (0.000258) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000936) UPDATE `video_streams` SET `progress` = 8109276 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000936) UPDATE `video_streams` SET `progress` = 8110624 WHERE `id` = 41
+ ~ (0.000264) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000567) UPDATE `video_streams` SET `progress` = 8111972 WHERE `id` = 41
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000624) UPDATE `video_streams` SET `progress` = 8113320 WHERE `id` = 41
+ ~ (0.000248) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000561) UPDATE `video_streams` SET `progress` = 8114668 WHERE `id` = 41
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000902) UPDATE `video_streams` SET `progress` = 8116016 WHERE `id` = 41
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000577) UPDATE `video_streams` SET `progress` = 8121408 WHERE `id` = 41
+ ~ (0.000314) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000984) UPDATE `video_streams` SET `progress` = 8122756 WHERE `id` = 41
+ ~ (0.000272) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000970) UPDATE `video_streams` SET `progress` = 8124312 WHERE `id` = 41
+ ~ (0.000283) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001155) UPDATE `video_streams` SET `progress` = 8125660 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000627) UPDATE `video_streams` SET `progress` = 8127008 WHERE `id` = 41
+ ~ (0.000271) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000538) UPDATE `video_streams` SET `progress` = 8129648 WHERE `id` = 41
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000504) UPDATE `video_streams` SET `progress` = 8130996 WHERE `id` = 41
+ ~ (0.000260) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000646) UPDATE `video_streams` SET `progress` = 8133692 WHERE `id` = 41
+ ~ (0.000318) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001733) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000270) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000841) UPDATE `video_streams` SET `progress` = 8135040 WHERE `id` = 41
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000145) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000146) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000431) UPDATE `video_streams` SET `progress` = 8137736 WHERE `id` = 41
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000142) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000173) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000488) UPDATE `video_streams` SET `progress` = 8140432 WHERE `id` = 41
+ ~ (0.000323) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001012) UPDATE `video_streams` SET `progress` = 8141780 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000958) UPDATE `video_streams` SET `progress` = 8142956 WHERE `id` = 41
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002244) UPDATE `video_streams` SET `progress` = 8144304 WHERE `id` = 41
+ ~ (0.000281) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000523) UPDATE `video_streams` SET `progress` = 8150968 WHERE `id` = 41
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.006391) UPDATE `video_streams` SET `progress` = 8155012 WHERE `id` = 41
+ ~ (0.000328) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000638) UPDATE `video_streams` SET `progress` = 8161752 WHERE `id` = 41
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000617) UPDATE `video_streams` SET `progress` = 8169992 WHERE `id` = 41
+ ~ (0.000317) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000951) UPDATE `video_streams` SET `progress` = 8171340 WHERE `id` = 41
+ ~ (0.000308) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001001) UPDATE `video_streams` SET `progress` = 8172688 WHERE `id` = 41
+ ~ (0.000276) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000613) UPDATE `video_streams` SET `progress` = 8176732 WHERE `id` = 41
+ ~ (0.000315) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000623) UPDATE `video_streams` SET `progress` = 8178080 WHERE `id` = 41
+ ~ (0.000272) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000602) UPDATE `video_streams` SET `progress` = 8186376 WHERE `id` = 41
+ ~ (0.000312) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000993) UPDATE `video_streams` SET `progress` = 8187724 WHERE `id` = 41
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000236) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000558) UPDATE `video_streams` SET `progress` = 8189072 WHERE `id` = 41
+ ~ (0.000322) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002487) UPDATE `video_streams` SET `progress` = 8190420 WHERE `id` = 41
+ ~ (0.000472) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000344) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.007115) UPDATE `video_streams` SET `progress` = 8191768 WHERE `id` = 41
+ ~ (0.000289) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000201) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000615) UPDATE `video_streams` SET `progress` = 8194608 WHERE `id` = 41
+ ~ (0.000267) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000499) UPDATE `video_streams` SET `progress` = 8195956 WHERE `id` = 41
+ ~ (0.000262) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000496) UPDATE `video_streams` SET `progress` = 8197304 WHERE `id` = 41
+ ~ (0.000306) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001308) UPDATE `video_streams` SET `progress` = 8198652 WHERE `id` = 41
+ ~ (0.000287) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000346) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000245) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000556) UPDATE `video_streams` SET `progress` = 8200000 WHERE `id` = 41
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000527) UPDATE `video_streams` SET `progress` = 8204044 WHERE `id` = 41
+ ~ (0.000316) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000919) UPDATE `video_streams` SET `progress` = 8205392 WHERE `id` = 41
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000584) UPDATE `video_streams` SET `progress` = 8206740 WHERE `id` = 41
+ ~ (0.000360) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.001016) UPDATE `video_streams` SET `progress` = 8208088 WHERE `id` = 41
+ ~ (0.000309) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000247) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000271) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000724) UPDATE `video_streams` SET `progress` = 8208492 WHERE `id` = 41
+ ~ (0.000328) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000283) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.026249) UPDATE `video_streams` SET `progress` = 8209840 WHERE `id` = 41
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000527) UPDATE `video_streams` SET `progress` = 8226224 WHERE `id` = 41
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000493) UPDATE `video_streams` SET `progress` = 8232056 WHERE `id` = 41
+ ~ (0.000367) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000519) UPDATE `video_streams` SET `progress` = 8233404 WHERE `id` = 41
+ ~ (0.000244) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000635) UPDATE `video_streams` SET `progress` = 8244040 WHERE `id` = 41
+ ~ (0.000326) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.009480) UPDATE `video_streams` SET `progress` = 8245388 WHERE `id` = 41
+ ~ (0.000384) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000385) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.020464) UPDATE `video_streams` SET `progress` = 8246736 WHERE `id` = 41
+ ~ (0.000310) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000227) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.009043) UPDATE `video_streams` SET `progress` = 8252128 WHERE `id` = 41
+ ~ (0.000390) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.010526) UPDATE `video_streams` SET `progress` = 8256172 WHERE `id` = 41
+ ~ (0.000299) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '0z1z6z7nR_8' ORDER BY `id` LIMIT 1
+ ~ (0.002956) UPDATE `video_streams` SET `progress` = 8260424 WHERE `id` = 41

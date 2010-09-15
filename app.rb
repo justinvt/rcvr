@@ -35,4 +35,8 @@ DataMapper.finalize
 #DataMapper.auto_migrate!
 DataMapper.auto_upgrade!
 
+if ENVIRONMENT == :development
+  VideoStream.delete_all_source
+end
+
 

@@ -40,10 +40,11 @@ end
   get '/progress/:video_id' do
     v = get_stream
     content_type 'text/javascript', :charset => 'utf-8'
-    {:size => v.content_length, :progress => v.progress}.to_json
+    {:video_id => v.video_id, :size => v.content_length, :progress => v.get_progress.to_i, :audio_progress => v.audio_progress.to_i, :audio_filename => v.audio_filename.to_s}.to_json
   end
   
   get '/downloading/:video_id' do
+    @v = get_stream
     haml :downloading, :layout => :"templates/main"
   end
   

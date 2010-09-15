@@ -17,12 +17,24 @@ class VideoStream
   
  # validates_uniqueness_of :url
   
-  attr_accessor :title, :saved, :path, :video_path, :audio_path, :audio_format, :audio_processed
+  attr_accessor :title, :saved, :path, :video_path, :audio_path, :audio_format, :audio_processed, :last_size
   
   DOWNLOAD_DIR = File.join [File.dirname(__FILE__), "..", "public", "scrape"]
   DEFAULT_AUDIO_FORMAT  = :mp3
   DEFAULT_AUDIO_BITRATE =  "192k"
   DEFAULT_TRANSCODER = :ffmpeg
+  
+  def self.delete_all_source
+    self.all.each do |vs|
+      vs.delete_source
+      vs.destroy
+    end
+  end
+  
+
+  def delete_source
+    FileUtils.rm_r stream_directory rescue log "#{stream_directory} Couldn't be deleted"
+  end
   
   def sanitize_filename(fn)
     fn = fn.strip
@@ -62,7 +74,7 @@ class VideoStream
   end
   
   
-  def audio_filename(format = :mp3)
+  def default_audio_filename(format = :mp3)
     @audio_format = format
     [ title, @audio_format.to_s ].join "." 
   end
@@ -77,7 +89,7 @@ class VideoStream
   end
   
   def default_audio_destination(location = DOWNLOAD_DIR)
-    File.join stream_directory(location), audio_filename
+    File.join stream_directory(location), default_audio_filename
   end
   
   def saved?(location = DOWNLOAD_DIR)
@@ -93,6 +105,34 @@ class VideoStream
     (@audio_processed && File.exist?(@audio_path)) || File.exist?(default_audio_destination(location))
   end
   
+  def progress_file_path
+    File.join(stream_directory,"progress.txt")
+  end
+  
+  def set_progress(size)
+    log "progress is #{size}"
+    progress_update_threshold = 30000 #bits?
+    #TODO do this right
+    if @progress_file
+    elsif File.exist?(progress_file_path)
+      @progress_file = File.new(progress_file_path,"a+")
+    else
+      @progress_file = File.new(progress_file_path,"w+")
+    end
+    if (@last_size == 0 || size - @last_size > progress_update_threshold)
+      percentage = (100 * (size.to_f/self.content_length.to_f)).to_s
+      log "or #{percentage} percent"
+      @progress_file.puts percentage
+      #self.attributes = { :progress => size.to_i }
+      #self.save
+      #last_size = size
+    end
+  end
+  
+  def get_progress
+    File.readlines(progress_file_path).last.to_f rescue 0.0
+  end
+  
   def download(location = DOWNLOAD_DIR)
     log "Downloading #{filename}"
     @video_destination = default_video_destination(location)
@@ -103,19 +143,16 @@ class VideoStream
       return @video_destination
     end
     log "Attempting to save to #{@video_destination}"
-    last_size = 0
+    @last_size = 0
     begin
       FileUtils.mkdir_p File.dirname(@video_destination)
       f = File.new @tmp_destination, "w+"
       f.puts open("#{url}",
         :progress_proc => lambda {|size|
-          if (last_size == 0 || size - last_size > 100000)
-            self.attributes = { :progress => size.to_i }
-            self.save
-            last_size = size
-          end
+          set_progress(size)
         }).read
       f.close
+      @progress_file.close if @progress_file
       File.rename f.path, @video_destination
     rescue => e
       raise "Could not be downloaded to #{@video_destination} \n\n #{e.message} \n\n #{e.backtrace.join("\n")}"
@@ -142,6 +179,11 @@ class VideoStream
   
   def audio
   end
+  
+  def audio_progress
+    File.size?( default_audio_filename).to_i
+  end
+  
   
   
   def process_audio(options = {})
@@ -170,7 +212,8 @@ class VideoStream
     info_script = File.join ROOT, "scripts", "find_info.rb"
     tag_script     = File.join ROOT, "scripts", "add_tag.rb"
     puts "Renamin #{file_location}"
-    result = IO.popen("echo \"#{file_location}\" | #{info_script} | #{tag_script}").read
+    #result = IO.popen("echo \"#{file_location}\" | #{info_script} | #{tag_script}").read
+    result = IO.popen("echo \"#{file_location}\"").read
     puts "new filename #{result}"
     @audio_path = file_location
     self.attributes = { :audio_filename =>file_location }

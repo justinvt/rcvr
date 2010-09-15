@@ -20,7 +20,7 @@ require 'lastfm'
   
   if STDIN
     filename = STDIN.read
-    parsed_name = File.basename(filename).split(".")[0..-2].join("").split(/[_\-]+/).map(&:strip)
+    parsed_name = File.basename(filename).gsub(/\(.*\)/,'').split(".")[0..-2].join("").split(/[_\-]+/).map(&:strip)
     parts = [parsed_name[0],parsed_name[1..-1].join(" ")]
   else
     parts = ARGV

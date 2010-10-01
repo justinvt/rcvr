@@ -10278,3 +10278,246 @@ Press [q] to stop encoding
 [libmp3lame @ 0x1816600]lame: output buffer too small (buffer index: 7523, free bytes: 1117)
 size=     147kB time=6.27 bitrate= 192.0kbits/s    
 video:0kB audio:147kB global headers:0kB muxing overhead 0.021267%
+Downloading Bohren & der Club of Gore - Prowler.mp4
+Attempting to save to /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4
+File can be viewed at /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4
+Converting with ffmpeg -y -i "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4"  -acodec libmp3lame  -ab 192k "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3"
+FFmpeg version SVN-r14381, Copyright (c) 2000-2008 Fabrice Bellard, et al.
+  configuration: --prefix=/opt/local --disable-vhook --mandir=/opt/local/share/man --enable-shared --enable-pthreads --disable-mmx --cc=gcc-4.0 --enable-gpl --enable-postproc --enable-libmp3lame --enable-libtheora --enable-libfaac --enable-libfaad --enable-libxvid --enable-libx264 --enable-liba52
+  libavutil version: 49.7.0
+  libavcodec version: 51.60.0
+  libavformat version: 52.18.0
+  libavdevice version: 52.0.0
+  built on Sep  7 2010 22:24:34, gcc: 4.0.1 (Apple Computer, Inc. build 5367)
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4':
+  Duration: 00:03:13.62, start: 0.000000, bitrate: 351 kb/s
+    Stream #0.0(und): Audio: libfaad, 44100 Hz, stereo
+    Stream #0.1(und): Video: h264, yuv420p, 192x144, 29.97 tb(r)
+Output #0, mp3, to '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3':
+    Stream #0.0(und): Audio: libmp3lame, 44100 Hz, stereo, 192 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press [q] to stop encoding
+size=     231kB time=9.85 bitrate= 192.0kbits/s    size=     466kB time=19.88 bitrate= 192.0kbits/s    size=     655kB time=27.92 bitrate= 192.0kbits/s    size=     783kB time=33.41 bitrate= 192.0kbits/s    size=     875kB time=37.33 bitrate= 192.0kbits/s    size=     974kB time=41.56 bitrate= 192.0kbits/s    size=    1071kB time=45.71 bitrate= 192.0kbits/s    size=    1172kB time=50.00 bitrate= 192.0kbits/s    size=    1231kB time=52.51 bitrate= 192.0kbits/s    size=    1321kB time=56.37 bitrate= 192.0kbits/s    size=    1385kB time=59.09 bitrate= 192.0kbits/s    size=    1455kB time=62.09 bitrate= 192.0kbits/s    size=    1527kB time=65.15 bitrate= 192.0kbits/s    size=    1577kB time=67.29 bitrate= 192.0kbits/s    size=    1624kB time=69.30 bitrate= 192.0kbits/s    size=    1685kB time=71.89 bitrate= 192.0kbits/s    size=    1738kB time=74.16 bitrate= 192.0kbits/s    size=    1806kB time=77.04 bitrate= 192.0kbits/s    size=    1873kB time=79.91 bitrate= 192.0kbits/s    size=    1939kB time=82.73 bitrate= 192.0kbits/s    size=    2005kB time=85.52 bitrate= 192.0kbits/s    size=    2065kB time=88.11 bitrate= 192.0kbits/s    size=    2129kB time=90.85 bitrate= 192.0kbits/s    size=    2170kB time=92.58 bitrate= 192.0kbits/s    size=    2222kB time=94.82 bitrate= 192.0kbits/s    size=    2267kB time=96.71 bitrate= 192.0kbits/s    size=    2323kB time=99.11 bitrate= 192.0kbits/s    size=    2381kB time=101.59 bitrate= 192.0kbits/s    size=    2457kB time=104.83 bitrate= 192.0kbits/s    size=    2531kB time=107.99 bitrate= 192.0kbits/s    size=    2567kB time=109.53 bitrate= 192.0kbits/s    size=    2621kB time=111.83 bitrate= 192.0kbits/s    size=    2690kB time=114.76 bitrate= 192.0kbits/s    size=    2753kB time=117.47 bitrate= 192.0kbits/s    size=    2811kB time=119.95 bitrate= 192.0kbits/s    size=    2886kB time=123.14 bitrate= 192.0kbits/s    size=    2932kB time=125.10 bitrate= 192.0kbits/s    size=    2963kB time=126.43 bitrate= 192.0kbits/s    size=    3039kB time=129.65 bitrate= 192.0kbits/s    size=    3116kB time=132.96 bitrate= 192.0kbits/s    size=    3184kB time=135.84 bitrate= 192.0kbits/s    size=    3251kB time=138.71 bitrate= 192.0kbits/s    size=    3319kB time=141.61 bitrate= 192.0kbits/s    size=    3389kB time=144.59 bitrate= 192.0kbits/s    size=    3454kB time=147.38 bitrate= 192.0kbits/s    size=    3520kB time=150.18 bitrate= 192.0kbits/s    size=    3589kB time=153.13 bitrate= 192.0kbits/s    size=    3664kB time=156.34 bitrate= 192.0kbits/s    size=    3732kB time=159.24 bitrate= 192.0kbits/s    size=    3790kB time=161.70 bitrate= 192.0kbits/s    size=    3848kB time=164.18 bitrate= 192.0kbits/s    size=    3921kB time=167.31 bitrate= 192.0kbits/s    size=    3998kB time=170.58 bitrate= 192.0kbits/s    size=    4069kB time=173.61 bitrate= 192.0kbits/s    size=    4137kB time=176.51 bitrate= 192.0kbits/s    size=    4152kB time=177.16 bitrate= 192.0kbits/s    size=    4226kB time=180.30 bitrate= 192.0kbits/s    size=    4278kB time=182.54 bitrate= 192.0kbits/s    size=    4335kB time=184.95 bitrate= 192.0kbits/s    size=    4399kB time=187.69 bitrate= 192.0kbits/s    size=    4476kB time=190.96 bitrate= 192.0kbits/s    [libmp3lame @ 0x180d800]lame: output buffer too small (buffer index: 7524, free bytes: 1116)
+size=    4542kB time=193.78 bitrate= 192.0kbits/s    
+video:0kB audio:4542kB global headers:0kB muxing overhead 0.000688%
+Downloading Bohren & der Club of Gore - Prowler.mp4
+Attempting to save to /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4
+File can be viewed at /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4
+Converting with ffmpeg -y -i "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4"  -acodec libmp3lame  -ab 192k "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3"
+FFmpeg version SVN-r14381, Copyright (c) 2000-2008 Fabrice Bellard, et al.
+  configuration: --prefix=/opt/local --disable-vhook --mandir=/opt/local/share/man --enable-shared --enable-pthreads --disable-mmx --cc=gcc-4.0 --enable-gpl --enable-postproc --enable-libmp3lame --enable-libtheora --enable-libfaac --enable-libfaad --enable-libxvid --enable-libx264 --enable-liba52
+  libavutil version: 49.7.0
+  libavcodec version: 51.60.0
+  libavformat version: 52.18.0
+  libavdevice version: 52.0.0
+  built on Sep  7 2010 22:24:34, gcc: 4.0.1 (Apple Computer, Inc. build 5367)
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp4':
+  Duration: 00:03:13.62, start: 0.000000, bitrate: 351 kb/s
+    Stream #0.0(und): Audio: libfaad, 44100 Hz, stereo
+    Stream #0.1(und): Video: h264, yuv420p, 192x144, 29.97 tb(r)
+Output #0, mp3, to '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3':
+    Stream #0.0(und): Audio: libmp3lame, 44100 Hz, stereo, 192 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+Press [q] to stop encoding
+size=     243kB time=10.37 bitrate= 192.0kbits/s    size=     478kB time=20.40 bitrate= 192.0kbits/s    size=     724kB time=30.90 bitrate= 192.0kbits/s    size=     961kB time=40.99 bitrate= 192.0kbits/s    size=    1202kB time=51.30 bitrate= 192.0kbits/s    size=    1436kB time=61.26 bitrate= 192.0kbits/s    size=    1666kB time=71.08 bitrate= 192.0kbits/s    size=    1896kB time=80.88 bitrate= 192.0kbits/s    size=    2126kB time=90.70 bitrate= 192.0kbits/s    size=    2347kB time=100.13 bitrate= 192.0kbits/s    size=    2582kB time=110.16 bitrate= 192.0kbits/s    size=    2808kB time=119.80 bitrate= 192.0kbits/s    size=    3044kB time=129.88 bitrate= 192.0kbits/s    size=    3276kB time=139.76 bitrate= 192.0kbits/s    size=    3513kB time=149.89 bitrate= 192.0kbits/s    size=    3748kB time=159.90 bitrate= 192.0kbits/s    size=    3985kB time=170.00 bitrate= 192.0kbits/s    size=    4163kB time=177.63 bitrate= 192.0kbits/s    size=    4397kB time=187.61 bitrate= 192.0kbits/s    [libmp3lame @ 0x180d800]lame: output buffer too small (buffer index: 7524, free bytes: 1116)
+size=    4542kB time=193.78 bitrate= 192.0kbits/s    
+video:0kB audio:4542kB global headers:0kB muxing overhead 0.000688%
+./scripts/add_tag.rb:42:in `[]': Symbol as array index (TypeError)
+	from ./scripts/add_tag.rb:42
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renamin /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+new filename 
+./scripts/add_tag.rb:42:in `[]': Symbol as array index (TypeError)
+	from ./scripts/add_tag.rb:42
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename 
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename 
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename 
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename aaaa
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename aaaa
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename --- 
+track: 
+  name: Prowler
+  duration: "302000"
+  artist: 
+    name: Bohren & der Club of Gore
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore
+    mbid: 938df0a0-c650-4cf8-9b23-5ad8a5cb4805
+  url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/_/Prowler
+  id: "15583"
+  mbid: ""
+  toptags: 
+    tag: 
+    - name: jazz
+      url: http://www.last.fm/tag/jazz
+    - name: ambient
+      url: http://www.last.fm/tag/ambient
+    - name: jazz noir
+      url: http://www.last.fm/tag/jazz%20noir
+    - name: ambient jazz
+      url: http://www.last.fm/tag/ambient%20jazz
+    - name: funeral jazz
+      url: http://www.last.fm/tag/funeral%20jazz
+  streamable: 
+    fulltrack: "0"
+    "#text": "1"
+  album: 
+    artist: Bohren & der Club of Gore
+    title: Sunset Mission
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/Sunset+Mission
+    mbid: e41015a1-90c0-47b3-9ca5-2b1055f1e3d6
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/64s/44312421.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/126/44312421.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/174s/44312421.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/300x300/44312421.jpg
+    "@attr": 
+      position: "1"
+  playcount: "125576"
+  listeners: "22820"
+filename: |
+  /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename --- 
+track: 
+  name: Prowler
+  duration: "302000"
+  artist: 
+    name: Bohren & der Club of Gore
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore
+    mbid: 938df0a0-c650-4cf8-9b23-5ad8a5cb4805
+  url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/_/Prowler
+  id: "15583"
+  mbid: ""
+  toptags: 
+    tag: 
+    - name: jazz
+      url: http://www.last.fm/tag/jazz
+    - name: ambient
+      url: http://www.last.fm/tag/ambient
+    - name: jazz noir
+      url: http://www.last.fm/tag/jazz%20noir
+    - name: ambient jazz
+      url: http://www.last.fm/tag/ambient%20jazz
+    - name: funeral jazz
+      url: http://www.last.fm/tag/funeral%20jazz
+  streamable: 
+    fulltrack: "0"
+    "#text": "1"
+  album: 
+    artist: Bohren & der Club of Gore
+    title: Sunset Mission
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/Sunset+Mission
+    mbid: e41015a1-90c0-47b3-9ca5-2b1055f1e3d6
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/64s/44312421.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/126/44312421.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/174s/44312421.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/300x300/44312421.jpg
+    "@attr": 
+      position: "1"
+  playcount: "125576"
+  listeners: "22820"
+filename: |
+  /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+
+["RECORD Tagging was a success for Bohren & der Club of Gore - Prowler.mp3"]
+Downloading Bohren & der Club of Gore - Prowler.mp4
+File already exists
+Audio file already exists
+Renaming /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+Post process script - echo "/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3" | ./scripts/find_info.rb | ./scripts/add_tag.rb
+new filename --- 
+track: 
+  name: Prowler
+  duration: "302000"
+  artist: 
+    name: Bohren & der Club of Gore
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore
+    mbid: 938df0a0-c650-4cf8-9b23-5ad8a5cb4805
+  url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/_/Prowler
+  id: "15583"
+  mbid: ""
+  toptags: 
+    tag: 
+    - name: jazz
+      url: http://www.last.fm/tag/jazz
+    - name: ambient
+      url: http://www.last.fm/tag/ambient
+    - name: jazz noir
+      url: http://www.last.fm/tag/jazz%20noir
+    - name: ambient jazz
+      url: http://www.last.fm/tag/ambient%20jazz
+    - name: funeral jazz
+      url: http://www.last.fm/tag/funeral%20jazz
+  streamable: 
+    fulltrack: "0"
+    "#text": "1"
+  album: 
+    artist: Bohren & der Club of Gore
+    title: Sunset Mission
+    url: http://www.last.fm/music/Bohren%2B%2526%2Bder%2BClub%2Bof%2BGore/Sunset+Mission
+    mbid: e41015a1-90c0-47b3-9ca5-2b1055f1e3d6
+    image: 
+    - size: small
+      "#text": http://userserve-ak.last.fm/serve/64s/44312421.jpg
+    - size: medium
+      "#text": http://userserve-ak.last.fm/serve/126/44312421.jpg
+    - size: large
+      "#text": http://userserve-ak.last.fm/serve/174s/44312421.jpg
+    - size: extralarge
+      "#text": http://userserve-ak.last.fm/serve/300x300/44312421.jpg
+    "@attr": 
+      position: "1"
+  playcount: "125576"
+  listeners: "22820"
+filename: |
+  /Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3
+
+["RECORD Tagging was a success for Bohren & der Club of Gore - Prowler.mp3"]

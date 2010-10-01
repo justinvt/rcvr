@@ -20,12 +20,13 @@ require 'lastfm'
   
   if STDIN
     filename = STDIN.read
-    parsed_name = File.basename(filename).gsub(/\(.*\)/,'').split(".")[0..-2].join("").split(/[_\-]+/).map(&:strip)
+    parsed_name = File.basename(filename).gsub(/\(.*\)/,'').split(".")[0..-2].join.split(/[_\-]+/).map(&:strip)
     parts = [parsed_name[0],parsed_name[1..-1].join(" ")]
   else
     parts = ARGV
     filename = nil
   end
+
 
  
  
@@ -42,10 +43,14 @@ require 'lastfm'
  elsif parts.size == 2
 
    track_request = Lastfm::Track.new(lastfm)
- 
-   response = track_request.get_info(parts[0],parts[1]).instance_variable_get("@parsed_body")
-   response["filename"] = filename
-   puts response.to_yaml
+   
+   begin
+     response = track_request.get_info(parts[0],parts[1]).instance_variable_get("@parsed_body")
+     response["filename"] = filename
+     puts response.to_yaml
+  rescue => e
+    puts ({:error => {:message => e.message }}).to_yaml
+  end
    
 
  end

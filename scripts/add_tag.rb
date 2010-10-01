@@ -39,7 +39,13 @@ end
 artist = track = nil
 if STDIN
   song_info = YAML::load( STDIN.read )
-   file      = song_info["filename"].gsub("\n",'')
+  if song_info[:error]
+    puts "Song couldn't be tagged"
+    #exit 0
+  else
+    puts song_info.to_yaml
+  end
+  file      = song_info["filename"].gsub("\n",'')
   filename    = File.basename file
 
   
@@ -70,14 +76,17 @@ end
 
 unless song_info.nil?
   
-   artist = song_info["track"]["artist"]["name"]
-   track = song_info["track"]["name"]
+  artist = song_info["track"]["artist"]["name"]
+  track = song_info["track"]["name"]
+  album  = song_info["track"]["album"]["title"]
+  
   if AUTOTAG
     begin
       Mp3Info.open(file) do |mp3|
         mp3.tag.title  = mp3.tag2.TIT2  = song_info["track"]["name"]
         mp3.tag.artist = mp3.tag2.TPE1 = song_info["track"]["artist"]["name"]
         mp3.tag.comments = mp3.tag2.COMM  = song_info.to_yaml
+        mp3.tag.album = mp3.tag2.TALB = album
         album_art = song_info["track"]["album"]["image"][0]["#text"] rescue nil
         if album_art
           art_ext = File.extname(album_art)
@@ -100,4 +109,4 @@ else
 end
 
 
-
+puts output.inspect

@@ -51,6 +51,7 @@ unless ARGV[0].nil?
   end
   @v.download
   @v.process_audio
+  @v.post_process
 end
 
 

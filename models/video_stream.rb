@@ -49,7 +49,7 @@ class VideoStream
    # Basically strip out the non-ascii alphabets too 
    # and replace with x. 
    # You don't want all _ :)
-    fn.gsub!(/[^0-9A-Za-z.\- ]/, 'x')
+    fn.gsub!(/[^0-9A-Za-z.\- &]/, ' ')
     return fn
   end
 
@@ -149,11 +149,12 @@ class VideoStream
       percentage = (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
-      if PROGRESS_STORAGE == :file
-        @progress_file.puts percentage
-      else
+      if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
+       
+      else
+         @progress_file.puts percentage
       end
     end
   end
@@ -240,9 +241,11 @@ class VideoStream
     file_location = (@audio_path || default_audio_destination)
     info_script = File.join ROOT, "scripts", "find_info.rb"
     tag_script     = File.join ROOT, "scripts", "add_tag.rb"
-    puts "Renamin #{file_location}"
-    #result = IO.popen("echo \"#{file_location}\" | #{info_script} | #{tag_script}").read
-    result = IO.popen("echo \"#{file_location}\"").read
+    puts "Renaming #{file_location}"
+    pp_script = "echo \"#{file_location}\" | #{info_script} | #{tag_script}"
+    puts "Post process script - #{pp_script}"
+    result = IO.popen(pp_script).read
+    #result = IO.popen("echo \"#{file_location}\"").read
     puts "new filename #{result}"
     @audio_path = file_location
     self.attributes = { :audio_filename =>file_location }

@@ -687,3 +687,844 @@ accept-ranges: bytes
  ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
  ~ (0.000361) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
  ~ (0.000466) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000150) SET sql_auto_is_null = 0
+ ~ (0.000118) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000535) SHOW TABLES LIKE 'comments'
+ ~ (0.000070) SET sql_auto_is_null = 0
+ ~ (0.000079) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.014872) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000421) SHOW TABLES LIKE 'formats'
+ ~ (0.001270) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001211) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001163) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001139) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001289) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000426) SHOW TABLES LIKE 'hosts'
+ ~ (0.001347) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001168) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001146) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000351) SHOW TABLES LIKE 'videos'
+ ~ (0.001674) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001343) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001302) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001293) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000354) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001179) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001140) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001306) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001121) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001273) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001118) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001288) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001271) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001164) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001089) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001115) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001082) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001282) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000356) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000331) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000298) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000180) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000412) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000098) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000420) SHOW TABLES LIKE 'comments'
+ ~ (0.000075) SET sql_auto_is_null = 0
+ ~ (0.000091) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001645) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000377) SHOW TABLES LIKE 'formats'
+ ~ (0.001566) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001260) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001274) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001235) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001089) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000377) SHOW TABLES LIKE 'hosts'
+ ~ (0.001100) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001100) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001211) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.005790) SHOW TABLES LIKE 'videos'
+ ~ (0.001128) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001131) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001127) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.000850) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000375) SHOW TABLES LIKE 'video_streams'
+ ~ (0.000911) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001100) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001010) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001086) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001111) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001329) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001073) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001135) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001321) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001183) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001094) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001099) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001267) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000365) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000263) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000928) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000265) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.016936) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000311) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000377) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000226) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SET sql_auto_is_null = 0
+ ~ (0.000107) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000568) SHOW TABLES LIKE 'comments'
+ ~ (0.000087) SET sql_auto_is_null = 0
+ ~ (0.000079) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001166) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.018933) SHOW TABLES LIKE 'formats'
+ ~ (0.013442) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001328) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001187) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001301) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001255) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000383) SHOW TABLES LIKE 'hosts'
+ ~ (0.001183) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001309) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001280) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000369) SHOW TABLES LIKE 'videos'
+ ~ (0.001161) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001267) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001089) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001211) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000326) SHOW TABLES LIKE 'video_streams'
+ ~ (0.000957) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001159) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001117) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.000895) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001159) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001498) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001270) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001242) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001172) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001181) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001086) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001111) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001195) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000390) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000317) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000208) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000247) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000326) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000160) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.247290) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000114) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000438) SHOW TABLES LIKE 'comments'
+ ~ (0.000057) SET sql_auto_is_null = 0
+ ~ (0.000063) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002797) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000409) SHOW TABLES LIKE 'formats'
+ ~ (0.002062) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001176) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001165) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001060) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001456) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000385) SHOW TABLES LIKE 'hosts'
+ ~ (0.001100) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001123) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001194) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000489) SHOW TABLES LIKE 'videos'
+ ~ (0.010444) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001452) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001289) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001098) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000375) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001275) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001255) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001141) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001261) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001075) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001288) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001102) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001243) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001225) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001095) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001273) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001080) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001185) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000414) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000238) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000258) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000255) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000176) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000142) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000160) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000216) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000172) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000149) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000160) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000180) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000431) SHOW TABLES LIKE 'comments'
+ ~ (0.000054) SET sql_auto_is_null = 0
+ ~ (0.000061) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002840) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000426) SHOW TABLES LIKE 'formats'
+ ~ (0.001806) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001096) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001076) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001077) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001187) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000382) SHOW TABLES LIKE 'hosts'
+ ~ (0.001114) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.006804) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001406) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000337) SHOW TABLES LIKE 'videos'
+ ~ (0.001239) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001155) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001021) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001247) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000349) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001268) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001238) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001094) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001091) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001098) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001271) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001270) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001087) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001099) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001082) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001042) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001246) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001115) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000373) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000231) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000256) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000327) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000160) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000149) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000192) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000145) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000136) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.004333) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000242) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000195) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000088) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000428) SHOW TABLES LIKE 'comments'
+ ~ (0.000053) SET sql_auto_is_null = 0
+ ~ (0.000061) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003547) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000440) SHOW TABLES LIKE 'formats'
+ ~ (0.001335) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001237) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001158) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.007866) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001213) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000416) SHOW TABLES LIKE 'hosts'
+ ~ (0.001342) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001239) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001078) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000355) SHOW TABLES LIKE 'videos'
+ ~ (0.014813) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001239) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001191) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001206) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000447) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001063) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.000999) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001027) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.000963) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.000968) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.000963) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001189) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.000942) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.000948) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.000910) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.000942) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.000962) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.000958) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000515) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000254) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000286) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000355) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000264) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000180) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000173) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000151) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000144) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000138) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000150) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000160) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000294) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000240) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000126) SET sql_auto_is_null = 0
+ ~ (0.000088) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000434) SHOW TABLES LIKE 'comments'
+ ~ (0.000056) SET sql_auto_is_null = 0
+ ~ (0.000062) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002655) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.052374) SHOW TABLES LIKE 'formats'
+ ~ (0.001245) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001145) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001149) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001336) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001220) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000568) SHOW TABLES LIKE 'hosts'
+ ~ (0.001268) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001219) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001007) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000305) SHOW TABLES LIKE 'videos'
+ ~ (0.000974) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001152) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.000964) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001250) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000354) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001135) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001133) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001330) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001057) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001132) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001112) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001286) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001115) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001090) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001270) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001278) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001223) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001088) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000361) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000226) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000326) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000160) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000173) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000138) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000182) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000145) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000184) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000140) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000272) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000196) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000131) SET sql_auto_is_null = 0
+ ~ (0.000096) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000432) SHOW TABLES LIKE 'comments'
+ ~ (0.000055) SET sql_auto_is_null = 0
+ ~ (0.000062) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002896) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000388) SHOW TABLES LIKE 'formats'
+ ~ (0.001781) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.002521) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001094) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001112) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001120) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000372) SHOW TABLES LIKE 'hosts'
+ ~ (0.001120) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001089) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.007510) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000386) SHOW TABLES LIKE 'videos'
+ ~ (0.001184) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001189) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.002221) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001224) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000329) SHOW TABLES LIKE 'video_streams'
+ ~ (0.000977) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001163) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001175) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001285) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001188) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001195) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001200) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001269) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001111) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001105) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001101) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001101) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001117) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000358) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000249) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000281) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000255) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000382) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000236) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000248) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000245) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000262) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000222) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000227) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000180) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000220) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000357) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000237) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000163) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000196) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.004230) SET sql_auto_is_null = 0
+ ~ (0.000092) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000496) SHOW TABLES LIKE 'comments'
+ ~ (0.000057) SET sql_auto_is_null = 0
+ ~ (0.000063) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001788) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000402) SHOW TABLES LIKE 'formats'
+ ~ (0.001337) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001086) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001172) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001259) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001236) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000352) SHOW TABLES LIKE 'hosts'
+ ~ (0.001163) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001256) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001238) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000335) SHOW TABLES LIKE 'videos'
+ ~ (0.001339) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001085) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001233) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001236) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000332) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001045) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001149) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001074) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001078) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001073) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001236) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001079) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001248) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001299) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001090) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001082) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001069) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.000922) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000366) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000244) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000266) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000223) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.006508) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000237) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000172) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000235) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000119) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000176) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000137) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000141) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000154) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000187) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000420) SHOW TABLES LIKE 'comments'
+ ~ (0.000066) SET sql_auto_is_null = 0
+ ~ (0.000062) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002957) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000386) SHOW TABLES LIKE 'formats'
+ ~ (0.001945) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001101) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001079) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001180) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001082) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000349) SHOW TABLES LIKE 'hosts'
+ ~ (0.001122) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001114) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001123) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000392) SHOW TABLES LIKE 'videos'
+ ~ (0.001116) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.008399) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001367) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001301) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000442) SHOW TABLES LIKE 'video_streams'
+ ~ (0.007221) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001410) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001148) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001112) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001098) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.000880) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.000864) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001110) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001216) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001293) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001273) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001135) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001111) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000371) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000226) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000204) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000433) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000339) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000394) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000176) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000169) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000151) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000196) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000151) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000176) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000275) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000187) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000183) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000180) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000179) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000157) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40
+ ~ (0.000116) SET sql_auto_is_null = 0
+ ~ (0.000107) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000432) SHOW TABLES LIKE 'comments'
+ ~ (0.000083) SET sql_auto_is_null = 0
+ ~ (0.000066) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002706) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000387) SHOW TABLES LIKE 'formats'
+ ~ (0.001479) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001078) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001094) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001183) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.007383) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000363) SHOW TABLES LIKE 'hosts'
+ ~ (0.001477) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001304) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001351) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000365) SHOW TABLES LIKE 'videos'
+ ~ (0.001311) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001153) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001142) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001309) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000350) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001093) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001209) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001289) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001141) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001262) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001294) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001135) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001303) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001155) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001139) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001131) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001273) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001300) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000363) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000226) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000209) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000296) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000344) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000261) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000221) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000188) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000325) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000232) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000142) SELECT `id`, `audio_filename` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000162) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000186) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000159) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000176) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000153) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `signature` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000169) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000141) SELECT `id`, `file_header` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000239) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000261) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000158) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000165) SELECT `id`, `params` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000195) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000155) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `headers` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000177) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000181) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000185) UPDATE `video_streams` SET `audio_filename` = '/Users/justin/dev/ruby/youtube_down/public/scrape/NoooscPFiyc/Bohren & der Club of Gore - Prowler.mp3' WHERE `id` = 40

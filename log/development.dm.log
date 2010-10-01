@@ -1,0 +1,689 @@
+Fri, 01 Oct 2010 10:09:11 GMT  ~  info  ~  Logfile created
+ ~ (0.081356) SET sql_auto_is_null = 0
+ ~ (0.068197) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.180553) SHOW TABLES LIKE 'comments'
+ ~ (0.000113) SET sql_auto_is_null = 0
+ ~ (0.000114) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.124100) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000464) SHOW TABLES LIKE 'formats'
+ ~ (0.011000) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.010515) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.005626) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.003695) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.007270) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000431) SHOW TABLES LIKE 'hosts'
+ ~ (0.011946) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.008945) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.015868) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000439) SHOW TABLES LIKE 'videos'
+ ~ (0.009011) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.013453) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.011563) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.008569) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000447) SHOW TABLES LIKE 'video_streams'
+ ~ (0.011948) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.014048) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.015890) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.014709) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.009605) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.011741) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.009696) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.008640) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.004057) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.008112) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.010418) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.014231) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.015838) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.334319) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`format_id` = '18' AND `video_id` = '5_1-zwBsvjw') ORDER BY `id` LIMIT 1
+ ~ (0.000338) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000189) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000156) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000194) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000260) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000142) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.037324) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 37 ORDER BY `id`
+ ~ (0.000295) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000435) SHOW TABLES LIKE 'comments'
+ ~ (0.000089) SET sql_auto_is_null = 0
+ ~ (0.000065) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.009758) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000420) SHOW TABLES LIKE 'formats'
+ ~ (0.008189) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.012847) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.011235) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.013724) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.007962) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000441) SHOW TABLES LIKE 'hosts'
+ ~ (0.008988) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.005229) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.003297) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000457) SHOW TABLES LIKE 'videos'
+ ~ (0.005258) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.004706) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.007388) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.010972) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000464) SHOW TABLES LIKE 'video_streams'
+ ~ (0.015742) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.007794) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.004121) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.007319) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.014991) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.005741) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.012351) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.013052) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.013484) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.004874) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.006289) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.012189) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.016171) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000393) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`format_id` = '18' AND `video_id` = '5_1-zwBsvjw') ORDER BY `id` LIMIT 1
+ ~ (0.000256) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000250) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000224) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000177) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 37 ORDER BY `id`
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000117) SET sql_auto_is_null = 0
+ ~ (0.000116) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000325) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000253) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = '5_1-zwBsvjw' ORDER BY `id` LIMIT 1
+ ~ (0.000171) SET sql_auto_is_null = 0
+ ~ (0.000105) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000493) SHOW TABLES LIKE 'comments'
+ ~ (0.000069) SET sql_auto_is_null = 0
+ ~ (0.000072) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001169) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000295) SHOW TABLES LIKE 'formats'
+ ~ (0.000972) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.000886) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.000857) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.000989) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001075) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000409) SHOW TABLES LIKE 'hosts'
+ ~ (0.001222) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001128) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001011) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.001259) SHOW TABLES LIKE 'videos'
+ ~ (0.001283) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001948) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001073) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.000980) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.004716) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001155) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001083) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001181) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001146) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.000907) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001145) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001174) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001235) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001266) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001288) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001283) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001313) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001288) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000352) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000357) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE (`video_id` = 'NoooscPFiyc' AND `title` = 'Bohren & der Club of Gore - Prowler' AND `user` = 'Sadistica') ORDER BY `id` LIMIT 1
+ ~ (0.000227) SELECT `id` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.139645) INSERT INTO `videos` (`video_id`, `user`, `title`) VALUES ('NoooscPFiyc', 'Sadistica', 'Bohren & der Club of Gore - Prowler')
+ ~ (0.000417) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v1.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000243) SELECT `id` FROM `hosts` WHERE `domain` = 'v1.lscache2.c.youtube.com' ORDER BY `id` LIMIT 1
+ ~ (0.000529) INSERT INTO `hosts` (`ip`, `domain`) VALUES ('71.0.0.0', 'v1.lscache2.c.youtube.com')
+ ~ (0.000384) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000389) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v5.lscache4.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000269) SELECT `id` FROM `hosts` WHERE `domain` = 'v5.lscache4.c.youtube.com' ORDER BY `id` LIMIT 1
+ ~ (0.000573) INSERT INTO `hosts` (`ip`, `domain`) VALUES ('71.0.0.0', 'v5.lscache4.c.youtube.com')
+ ~ (0.000302) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '34' ORDER BY `id` LIMIT 1
+ ~ (0.000357) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v1.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000321) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000380) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`ip` = '71.0.0.0' AND `domain` = 'v13.lscache8.c.youtube.com') ORDER BY `id` LIMIT 1
+ ~ (0.000350) SELECT `id` FROM `hosts` WHERE `domain` = 'v13.lscache8.c.youtube.com' ORDER BY `id` LIMIT 1
+ ~ (0.002266) INSERT INTO `hosts` (`ip`, `domain`) VALUES ('71.0.0.0', 'v13.lscache8.c.youtube.com')
+ ~ (0.000499) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '5' ORDER BY `id` LIMIT 1
+ ~ (0.000343) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v5.cache7.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id` FROM `hosts` WHERE `domain` = 'v5.cache7.c.youtube.com' ORDER BY `id` LIMIT 1
+ ~ (0.002076) INSERT INTO `hosts` (`ip`, `domain`) VALUES ('71.0.0.0', 'v5.cache7.c.youtube.com')
+ ~ (0.000306) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '5' ORDER BY `id` LIMIT 1
+ ~ (0.000370) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v1.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000306) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000329) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v5.lscache4.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000480) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '34' ORDER BY `id` LIMIT 1
+ ~ (0.000385) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v1.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000337) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000369) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`ip` = '71.0.0.0' AND `domain` = 'v13.lscache8.c.youtube.com') ORDER BY `id` LIMIT 1
+ ~ (0.000311) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '5' ORDER BY `id` LIMIT 1
+ ~ (0.000382) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.042064) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('NoooscPFiyc', '18', 'http://v1.lscache2.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=905303,907003,906402&algorithm=throttle-factor&itag=18&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=0C064E90CB815B5351FDDBC25E4A29207676BFA7.5E8A8E1F3ADF8C3D9A3F7EB31AB119AB93CD69E9&factor=1.25&id=368a28b1c3c58b27', '0C064E90CB815B5351FDDBC25E4A29207676BFA7.5E8A8E1F3ADF8C3D9A3F7EB31AB119AB93CD69E9', 'video/mp4', '--- 
+fexp: "905303,907003,906402"
+signature: 0C064E90CB815B5351FDDBC25E4A29207676BFA7.5E8A8E1F3ADF8C3D9A3F7EB31AB119AB93CD69E9
+algorithm: throttle-factor
+id: 368a28b1c3c58b27
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "18"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Thu, 25 Oct 2007 17:58:02 GMT
+expires: Fri, 01 Oct 2010 10:16:29 GMT
+content-type: video/mp4
+connection: close
+date: Fri, 01 Oct 2010 10:16:29 GMT
+server: gvs 1.0
+content-length: "8513072"
+cache-control: private, max-age=23911
+accept-ranges: bytes
+', '200', 8513072)
+ ~ (0.000373) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '34') ORDER BY `id` LIMIT 1
+ ~ (0.029921) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('NoooscPFiyc', '34', 'http://v5.lscache4.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=905303,907003,906402&algorithm=throttle-factor&itag=34&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=48B192087C520EBAC5FC867D9CC54E3131B2B62F.972D36046C7CAEF9FAF19067E382C404B8503625&factor=1.25&id=368a28b1c3c58b27', '48B192087C520EBAC5FC867D9CC54E3131B2B62F.972D36046C7CAEF9FAF19067E382C404B8503625', 'video/x-flv', '--- 
+fexp: "905303,907003,906402"
+signature: 48B192087C520EBAC5FC867D9CC54E3131B2B62F.972D36046C7CAEF9FAF19067E382C404B8503625
+algorithm: throttle-factor
+id: 368a28b1c3c58b27
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "34"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Sat, 10 Jul 2010 17:18:47 GMT
+expires: Fri, 01 Oct 2010 10:16:30 GMT
+content-type: video/x-flv
+connection: close
+date: Fri, 01 Oct 2010 10:16:30 GMT
+server: gvs 1.0
+content-length: "3474736"
+cache-control: private, max-age=23910
+accept-ranges: bytes
+', '200', 3474736)
+ ~ (0.000393) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000302) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '5') ORDER BY `id` LIMIT 1
+ ~ (0.000751) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('NoooscPFiyc', '5', 'http://v5.cache7.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=905303,907003,906402&algorithm=throttle-factor&itag=5&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=D878FAA8342BC540D543A1738A015BAF597D81A4.B51B53FCE8B7BAD2F1AA274DA69B6B2DE1F7FE01&factor=1.25&id=368a28b1c3c58b27&redirect_counter=1', 'D878FAA8342BC540D543A1738A015BAF597D81A4.B51B53FCE8B7BAD2F1AA274DA69B6B2DE1F7FE01', 'video/x-flv', '--- 
+fexp: "905303,907003,906402"
+signature: D878FAA8342BC540D543A1738A015BAF597D81A4.B51B53FCE8B7BAD2F1AA274DA69B6B2DE1F7FE01
+algorithm: throttle-factor
+redirect_counter: "1"
+id: 368a28b1c3c58b27
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "5"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Wed, 15 Apr 2009 23:21:23 GMT
+expires: Fri, 01 Oct 2010 10:16:32 GMT
+content-type: video/x-flv
+connection: close
+date: Fri, 01 Oct 2010 10:16:32 GMT
+server: gvs 1.0
+content-length: "3001867"
+cache-control: private, max-age=23908
+accept-ranges: bytes
+', '200', 3001867)
+ ~ (0.000308) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000319) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000246) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000283) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000167) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000167) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000178) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000148) SET sql_auto_is_null = 0
+ ~ (0.000118) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000573) SHOW TABLES LIKE 'comments'
+ ~ (0.000072) SET sql_auto_is_null = 0
+ ~ (0.000115) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.001319) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000413) SHOW TABLES LIKE 'formats'
+ ~ (0.001473) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001094) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001109) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001141) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001102) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000363) SHOW TABLES LIKE 'hosts'
+ ~ (0.001672) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001305) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001125) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000380) SHOW TABLES LIKE 'videos'
+ ~ (0.001126) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001104) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001377) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001307) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000353) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001289) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001258) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001275) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001084) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001260) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001086) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001147) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001257) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001236) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001274) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001247) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001079) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001240) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000376) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'NoooscPFiyc' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000225) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000217) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000234) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000190) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 40 ORDER BY `id`
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000383) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000218) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'NoooscPFiyc' ORDER BY `id` LIMIT 1
+ ~ (0.000147) SET sql_auto_is_null = 0
+ ~ (0.000118) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000552) SHOW TABLES LIKE 'comments'
+ ~ (0.000071) SET sql_auto_is_null = 0
+ ~ (0.000080) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.014375) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000476) SHOW TABLES LIKE 'formats'
+ ~ (0.016660) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.014780) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.015376) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.006967) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001472) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000431) SHOW TABLES LIKE 'hosts'
+ ~ (0.022481) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.012353) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.004912) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000434) SHOW TABLES LIKE 'videos'
+ ~ (0.009716) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.004027) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001194) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.009246) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000469) SHOW TABLES LIKE 'video_streams'
+ ~ (0.002950) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.008306) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.005540) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.013494) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.013182) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.013039) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.005978) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.011331) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001403) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.012055) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.015117) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.007217) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.009609) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000454) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000373) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE (`video_id` = 'oShTJ90fC34' AND `user` = 'geekfemme2' AND `title` = 'Rimshot') ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.002037) INSERT INTO `videos` (`video_id`, `user`, `title`) VALUES ('oShTJ90fC34', 'geekfemme2', 'Rimshot')
+ ~ (0.000375) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v22.lscache1.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000389) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000344) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v21.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id` FROM `hosts` WHERE `domain` = 'v21.lscache2.c.youtube.com' ORDER BY `id` LIMIT 1
+ ~ (0.002009) INSERT INTO `hosts` (`ip`, `domain`) VALUES ('71.0.0.0', 'v21.lscache2.c.youtube.com')
+ ~ (0.000313) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '34' ORDER BY `id` LIMIT 1
+ ~ (0.000302) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v22.lscache1.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.001223) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000291) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`ip` = '71.0.0.0' AND `domain` = 'v19.lscache8.c.youtube.com') ORDER BY `id` LIMIT 1
+ ~ (0.000312) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '5' ORDER BY `id` LIMIT 1
+ ~ (0.000344) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v22.lscache1.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000295) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000364) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v21.lscache2.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000316) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '34' ORDER BY `id` LIMIT 1
+ ~ (0.000307) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`domain` = 'v22.lscache1.c.youtube.com' AND `ip` = '71.0.0.0') ORDER BY `id` LIMIT 1
+ ~ (0.000303) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '18' ORDER BY `id` LIMIT 1
+ ~ (0.000284) SELECT `id`, `ip`, `domain` FROM `hosts` WHERE (`ip` = '71.0.0.0' AND `domain` = 'v19.lscache8.c.youtube.com') ORDER BY `id` LIMIT 1
+ ~ (0.000313) SELECT `id`, `itag`, `host_id`, `mime`, `extension` FROM `formats` WHERE `itag` = '5' ORDER BY `id` LIMIT 1
+ ~ (0.000353) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.002185) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('oShTJ90fC34', '18', 'http://v22.lscache1.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=901307,906712&algorithm=throttle-factor&itag=18&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=09CED32652F0F44942B7A0B8470C2A46B3A4DDFB.23E34853751F1A4E42AB88FBFB0A20A009ABFF7A&factor=1.25&id=a1285327dd1f0b7e', '09CED32652F0F44942B7A0B8470C2A46B3A4DDFB.23E34853751F1A4E42AB88FBFB0A20A009ABFF7A', 'video/mp4', '--- 
+fexp: "901307,906712"
+signature: 09CED32652F0F44942B7A0B8470C2A46B3A4DDFB.23E34853751F1A4E42AB88FBFB0A20A009ABFF7A
+algorithm: throttle-factor
+id: a1285327dd1f0b7e
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "18"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Thu, 14 May 2009 00:16:30 GMT
+expires: Fri, 01 Oct 2010 10:23:25 GMT
+content-type: video/mp4
+connection: close
+date: Fri, 01 Oct 2010 10:23:25 GMT
+server: gvs 1.0
+content-length: "490086"
+cache-control: private, max-age=23495
+accept-ranges: bytes
+', '200', 490086)
+ ~ (0.000377) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '34') ORDER BY `id` LIMIT 1
+ ~ (0.055386) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('oShTJ90fC34', '34', 'http://v21.lscache2.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=901307,906712&algorithm=throttle-factor&itag=34&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=8C2B449B8E5E58E96176FDC77362BE45AD523947.C5330DFFCF8D40D54DA52F5C85AC90A042360577&factor=1.25&id=a1285327dd1f0b7e', '8C2B449B8E5E58E96176FDC77362BE45AD523947.C5330DFFCF8D40D54DA52F5C85AC90A042360577', 'video/x-flv', '--- 
+fexp: "901307,906712"
+signature: 8C2B449B8E5E58E96176FDC77362BE45AD523947.C5330DFFCF8D40D54DA52F5C85AC90A042360577
+algorithm: throttle-factor
+id: a1285327dd1f0b7e
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "34"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Fri, 25 Jun 2010 22:11:31 GMT
+expires: Fri, 01 Oct 2010 10:23:26 GMT
+content-type: video/x-flv
+connection: close
+date: Fri, 01 Oct 2010 10:23:26 GMT
+server: gvs 1.0
+content-length: "613856"
+cache-control: private, max-age=23494
+accept-ranges: bytes
+', '200', 613856)
+ ~ (0.000414) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000248) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '5') ORDER BY `id` LIMIT 1
+ ~ (0.013846) INSERT INTO `video_streams` (`video_id`, `format_id`, `url`, `signature`, `mime`, `params`, `headers`, `http_status`, `content_length`) VALUES ('oShTJ90fC34', '5', 'http://v19.lscache8.c.youtube.com/videoplayback?ip=71.0.0.0&sparams=id,expire,ip,ipbits,itag,algorithm,burst,factor&fexp=901307,906712&algorithm=throttle-factor&itag=5&ipbits=8&burst=40&sver=3&expire=1285952400&key=yt1&signature=AEF7576718E4C34AC8681FF095DA54A2F05A07BB.BBE83341C0B21CED738DF08724A1D8226092209B&factor=1.25&id=a1285327dd1f0b7e', 'AEF7576718E4C34AC8681FF095DA54A2F05A07BB.BBE83341C0B21CED738DF08724A1D8226092209B', 'video/x-flv', '--- 
+fexp: "901307,906712"
+signature: AEF7576718E4C34AC8681FF095DA54A2F05A07BB.BBE83341C0B21CED738DF08724A1D8226092209B
+algorithm: throttle-factor
+id: a1285327dd1f0b7e
+sver: "3"
+sparams: id,expire,ip,ipbits,itag,algorithm,burst,factor
+ipbits: "8"
+ip: 71.0.0.0
+factor: "1.25"
+itag: "5"
+key: yt1
+expire: "1285952400"
+burst: "40"
+', '--- 
+x-content-type-options: nosniff
+code: "200"
+last-modified: Thu, 14 May 2009 00:16:29 GMT
+expires: Fri, 01 Oct 2010 10:23:28 GMT
+content-type: video/x-flv
+connection: close
+date: Fri, 01 Oct 2010 10:23:28 GMT
+server: gvs 1.0
+content-length: "236154"
+cache-control: private, max-age=23492
+accept-ranges: bytes
+', '200', 236154)
+ ~ (0.000371) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000280) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000206) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000309) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000244) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000191) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 43 ORDER BY `id`
+ ~ (0.000190) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000370) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000210) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000114) SET sql_auto_is_null = 0
+ ~ (0.000086) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000433) SHOW TABLES LIKE 'comments'
+ ~ (0.000053) SET sql_auto_is_null = 0
+ ~ (0.000061) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000935) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000388) SHOW TABLES LIKE 'formats'
+ ~ (0.002109) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001266) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001120) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001092) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001092) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000372) SHOW TABLES LIKE 'hosts'
+ ~ (0.001107) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001102) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001097) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000323) SHOW TABLES LIKE 'videos'
+ ~ (0.008133) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001351) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001392) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001291) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000365) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001348) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001285) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001182) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001335) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001134) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001286) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001091) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001282) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001103) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001118) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001313) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.006450) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001118) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000376) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000197) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000203) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000168) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000252) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000200) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000240) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000164) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 43 ORDER BY `id`
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.001066) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000248) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SET sql_auto_is_null = 0
+ ~ (0.000084) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.006566) SHOW TABLES LIKE 'comments'
+ ~ (0.000069) SET sql_auto_is_null = 0
+ ~ (0.000066) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002961) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000439) SHOW TABLES LIKE 'formats'
+ ~ (0.001594) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001151) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001642) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001116) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001088) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000387) SHOW TABLES LIKE 'hosts'
+ ~ (0.001167) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001197) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001148) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000347) SHOW TABLES LIKE 'videos'
+ ~ (0.008061) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001216) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001329) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001164) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000410) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001969) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001349) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001300) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001098) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001266) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001290) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001132) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001677) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001269) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001282) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001024) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001279) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001195) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000386) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000219) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000214) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000211) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000317) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000251) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000193) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 43 ORDER BY `id`
+ ~ (0.000174) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000166) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000331) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000215) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000429) SHOW TABLES LIKE 'comments'
+ ~ (0.000057) SET sql_auto_is_null = 0
+ ~ (0.000061) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.003013) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000386) SHOW TABLES LIKE 'formats'
+ ~ (0.001649) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001197) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001117) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001066) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001096) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000575) SHOW TABLES LIKE 'hosts'
+ ~ (0.001133) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001097) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.006821) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000531) SHOW TABLES LIKE 'videos'
+ ~ (0.001314) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001296) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001148) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001049) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000325) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001017) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001226) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001030) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001097) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001116) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001251) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001125) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001287) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001142) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001274) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001117) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001146) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001097) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000372) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000228) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000212) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000207) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000199) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000115) SET sql_auto_is_null = 0
+ ~ (0.000087) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000425) SHOW TABLES LIKE 'comments'
+ ~ (0.000058) SET sql_auto_is_null = 0
+ ~ (0.000061) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002805) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000392) SHOW TABLES LIKE 'formats'
+ ~ (0.001604) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001125) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001153) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001043) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001040) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000460) SHOW TABLES LIKE 'hosts'
+ ~ (0.001102) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001068) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001086) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000347) SHOW TABLES LIKE 'videos'
+ ~ (0.001076) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001085) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.007790) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001423) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000375) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001076) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.001252) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001231) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001026) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001185) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001233) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001015) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001237) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001023) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001221) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001013) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001243) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001099) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000365) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000233) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.032720) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000320) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000324) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000229) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000230) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000187) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 43 ORDER BY `id`
+ ~ (0.000198) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000205) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000307) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000273) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000113) SET sql_auto_is_null = 0
+ ~ (0.000099) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.000435) SHOW TABLES LIKE 'comments'
+ ~ (0.000092) SET sql_auto_is_null = 0
+ ~ (0.000072) SET SESSION sql_mode = 'ANSI,NO_BACKSLASH_ESCAPES,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION,NO_UNSIGNED_SUBTRACTION,TRADITIONAL'
+ ~ (0.002818) SHOW COLUMNS FROM `comments` LIKE 'id'
+ ~ (0.000409) SHOW TABLES LIKE 'formats'
+ ~ (0.001836) SHOW COLUMNS FROM `formats` LIKE 'id'
+ ~ (0.001099) SHOW COLUMNS FROM `formats` LIKE 'itag'
+ ~ (0.001114) SHOW COLUMNS FROM `formats` LIKE 'host_id'
+ ~ (0.001172) SHOW COLUMNS FROM `formats` LIKE 'mime'
+ ~ (0.001088) SHOW COLUMNS FROM `formats` LIKE 'extension'
+ ~ (0.000365) SHOW TABLES LIKE 'hosts'
+ ~ (0.001101) SHOW COLUMNS FROM `hosts` LIKE 'id'
+ ~ (0.001141) SHOW COLUMNS FROM `hosts` LIKE 'ip'
+ ~ (0.001046) SHOW COLUMNS FROM `hosts` LIKE 'domain'
+ ~ (0.000364) SHOW TABLES LIKE 'videos'
+ ~ (0.001087) SHOW COLUMNS FROM `videos` LIKE 'id'
+ ~ (0.001179) SHOW COLUMNS FROM `videos` LIKE 'video_id'
+ ~ (0.001068) SHOW COLUMNS FROM `videos` LIKE 'user'
+ ~ (0.001461) SHOW COLUMNS FROM `videos` LIKE 'title'
+ ~ (0.000386) SHOW TABLES LIKE 'video_streams'
+ ~ (0.001167) SHOW COLUMNS FROM `video_streams` LIKE 'id'
+ ~ (0.007449) SHOW COLUMNS FROM `video_streams` LIKE 'video_id'
+ ~ (0.001255) SHOW COLUMNS FROM `video_streams` LIKE 'format_id'
+ ~ (0.001209) SHOW COLUMNS FROM `video_streams` LIKE 'url'
+ ~ (0.001098) SHOW COLUMNS FROM `video_streams` LIKE 'signature'
+ ~ (0.001113) SHOW COLUMNS FROM `video_streams` LIKE 'mime'
+ ~ (0.001098) SHOW COLUMNS FROM `video_streams` LIKE 'file_header'
+ ~ (0.001250) SHOW COLUMNS FROM `video_streams` LIKE 'params'
+ ~ (0.001272) SHOW COLUMNS FROM `video_streams` LIKE 'headers'
+ ~ (0.001134) SHOW COLUMNS FROM `video_streams` LIKE 'http_status'
+ ~ (0.001258) SHOW COLUMNS FROM `video_streams` LIKE 'progress'
+ ~ (0.001112) SHOW COLUMNS FROM `video_streams` LIKE 'content_length'
+ ~ (0.001080) SHOW COLUMNS FROM `video_streams` LIKE 'audio_filename'
+ ~ (0.000367) SELECT `id`, `video_id`, `format_id`, `mime`, `http_status`, `progress`, `content_length` FROM `video_streams` WHERE (`video_id` = 'oShTJ90fC34' AND `format_id` = '18') ORDER BY `id` LIMIT 1
+ ~ (0.000229) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000213) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000202) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000305) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000290) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000277) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000175) SELECT `id`, `url` FROM `video_streams` WHERE `id` = 43 ORDER BY `id`
+ ~ (0.000170) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000161) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000361) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1
+ ~ (0.000466) SELECT `id`, `video_id`, `user`, `title` FROM `videos` WHERE `video_id` = 'oShTJ90fC34' ORDER BY `id` LIMIT 1

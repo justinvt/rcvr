@@ -23,6 +23,7 @@ class VideoStream
   DEFAULT_AUDIO_FORMAT  = :mp3
   DEFAULT_AUDIO_BITRATE =  "192k"
   DEFAULT_TRANSCODER = :ffmpeg
+  PROGRESS_STORAGE = :file
   
   def self.delete_all_source
     self.all.each do |vs|
@@ -109,23 +110,51 @@ class VideoStream
     File.join(stream_directory,"progress.txt")
   end
   
+  def update_progress?(size=nil, options ={})
+    options[:method] ||= :time
+    if options[:method].to_sym == :data
+      data_update?(size)
+    else
+      time_update?
+    end
+  end
+  
+   def progress_update_time_threshold
+     0.3#milliseconds
+  end
+  
+  def progress_update_data_threshold
+     30000 #bits?
+  end
+  
+  def time_update?
+    @last_time ||= Time.now
+    Time.now - @last_time > progress_update_time_threshold
+  end
+  
+  def data_update?(size)
+    (@last_size == 0 || size - @last_size > progress_update_threshold)
+  end
+  
+  
   def set_progress(size)
-    log "progress is #{size}"
-    progress_update_threshold = 30000 #bits?
     #TODO do this right
     if @progress_file
     elsif File.exist?(progress_file_path)
       @progress_file = File.new(progress_file_path,"a+")
     else
-      @progress_file = File.new(progress_file_path,"w+")
+      @progress_file = File.new(progress_file_path,"a+")
     end
-    if (@last_size == 0 || size - @last_size > progress_update_threshold)
+    if update_progress?# To update at data thresholds use update_progress(size, :method => :data)
       percentage = (100 * (size.to_f/self.content_length.to_f)).to_s
-      log "or #{percentage} percent"
-      @progress_file.puts percentage
-      #self.attributes = { :progress => size.to_i }
-      #self.save
-      #last_size = size
+      @last_size = size
+      @last_time = Time.now
+      if PROGRESS_STORAGE == :file
+        @progress_file.puts percentage
+      else
+        self.attributes = { :progress => percentage }
+        self.save
+      end
     end
   end
   

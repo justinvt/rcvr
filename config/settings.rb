@@ -10,7 +10,7 @@ USER = "justinvt"
 set :environment, ENVIRONMENT
 enable :logging, :dump_errors#, :raise_errors
 
-LOG_PROPAGATION = (ENVIRONMENT == :development) ? "w+" : "a"
+LOG_PROPAGATION = (ENVIRONMENT == :development) ? "a+" : "a+"
 
 log = File.new(APP_LOG, "a")
 DataMapper::Logger.new(DM_LOG, LOG_LEVEL)

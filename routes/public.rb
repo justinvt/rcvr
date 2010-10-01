@@ -1,14 +1,3 @@
-def get_stream
-  url_or_id = params[:video_id]
-  @video_id = YouTube.get_video_id(url_or_id)
-  v = VideoStream.first(:video_id => @video_id, :format_id => "18")
-  if v.nil?
-    yt = YouTube.new(@video_id, "18")
-    yt.retrieve
-    v = VideoStream.first(:video_id => @video_id, :format_id => "18") || VideoStream.first(:video_id => @video_id)
-  end
-  return v
-end
 
 
   

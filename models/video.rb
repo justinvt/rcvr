@@ -8,6 +8,11 @@ class Video
   
   validates_uniqueness_of :video_id
   
+  def process_audio
+    @v = VideoStream.first(:video_id => video_id, :format_id => "18")
+    @v.process_audio
+  end
+  
   
 end
 

@@ -15,6 +15,11 @@ CHECK_FILES   = false
 AUTOTAG      = true
 DESTINATION  = "/Users/justin/Music/mp3_rape/"
 
+  
+DEFAULT_ARTIST      = "Unknown"
+DEFAULT_TRACK_NAME  = "Untitled"
+DEFAULT_ALBUM       = ""
+
 output = []
 
 
@@ -34,24 +39,39 @@ end
 
 =end
 
-  large_img_dir = "http://userserve-ak.last.fm/serve/252/"
-  small_img_dir = "http://userserve-ak.last.fm/serve/34s/"
+large_img_dir = "http://userserve-ak.last.fm/serve/252/"
+small_img_dir = "http://userserve-ak.last.fm/serve/34s/"
 artist = track = nil
+
+
 if STDIN
-  song_info = YAML::load( STDIN.read )
-  if song_info[:error]
-    puts "Song couldn't be tagged"
-    #exit 0
-  else
-    puts song_info.to_yaml
-  end
-  file      = song_info["filename"].gsub("\n",'')
-  filename    = File.basename file
-
   
+  song_info = YAML::load( STDIN.read )
+  
+  
+  puts "Beginning add_tag.rb - tagging script"
+  puts "Song info lookup yielded #{ song_info.to_yaml.size} chars of output"
+  
+  if song_info[:error]
+    puts "Song couldn't be tagged - #{ song_info[:error][:message].to_s}"
+    #exit 0
+  end
+  
+  
+  # Overkill - being safe while debugging bigger issues
+  song_filename = song_info["filename"] || song_info[:filename]
+  
+
+  if song_filename.nil?
+    puts "No filename passed"
+    exit 0
+  end
+    
+  file        = song_filename.gsub("\n",'')
+  filename    = File.basename file
+  
+
 else
-
-
 
   file        = ARGV[0]
 
@@ -76,15 +96,17 @@ end
 
 unless song_info.nil?
   
-  artist = song_info["track"]["artist"]["name"]
-  track = song_info["track"]["name"]
-  album  = song_info["track"]["album"]["title"]
+  puts "Song info parsed OK"
+  
+  artist = song_info["track"]["artist"]["name"]  rescue DEFAULT_ARTIST
+  track  = song_info["track"]["name"]            rescue DEFAULT_TRACK_NAME
+  album  = song_info["track"]["album"]["title"]  rescue DEFAULT_ALBUM
   
   if AUTOTAG
     begin
       Mp3Info.open(file) do |mp3|
-        mp3.tag.title  = mp3.tag2.TIT2  = song_info["track"]["name"]
-        mp3.tag.artist = mp3.tag2.TPE1 = song_info["track"]["artist"]["name"]
+        mp3.tag.title  = mp3.tag2.TIT2  = track
+        mp3.tag.artist = mp3.tag2.TPE1 = artist
         mp3.tag.comments = mp3.tag2.COMM  = song_info.to_yaml
         mp3.tag.album = mp3.tag2.TALB = album
         album_art = song_info["track"]["album"]["image"][0]["#text"] rescue nil

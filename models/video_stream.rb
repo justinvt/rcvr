@@ -25,12 +25,25 @@ class VideoStream
   DEFAULT_TRANSCODER = :ffmpeg
   PROGRESS_STORAGE = :file
   
+  def block_log(title, message=nil, options ={})
+    log "\n\n"
+    log "=" * 50
+    log title
+    log "=" * 50
+    log "\n"
+    unless message.nil?
+      log message
+    end
+    log "\n"
+  end
+  
   def self.delete_all_source
     self.all.each do |vs|
       vs.delete_source
       vs.destroy
     end
-  end
+  end 
+  
   
 
   def delete_source
@@ -49,7 +62,7 @@ class VideoStream
    # Basically strip out the non-ascii alphabets too 
    # and replace with x. 
    # You don't want all _ :)
-    fn.gsub!(/[^0-9A-Za-z.\- &]/, ' ')
+    fn = fn.gsub(/[^0-9A-Za-z.\- &]/, ' ').gsub(/[ ]+\./, '.').strip
     return fn
   end
 
@@ -141,18 +154,18 @@ class VideoStream
     #TODO do this right
     if @progress_file
     elsif File.exist?(progress_file_path)
-      @progress_file = File.new(progress_file_path,"a+")
+      @progress_file = File.new(progress_file_path,"a")
     else
-      @progress_file = File.new(progress_file_path,"a+")
+      @progress_file = File.new(progress_file_path,"w+")
     end
     if update_progress?# To update at data thresholds use update_progress(size, :method => :data)
       percentage = (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
+      log percentage
       if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
-       
       else
          @progress_file.puts percentage
       end
@@ -193,12 +206,20 @@ class VideoStream
     return @video_path
   end
   
+  
+  def normalize?
+    true
+  end
 
 
   def mplayer_conversion_command(options = {})
     bitrate = options[:bitrate] || DEFAULT_AUDIO_BITRATE
     format  = options[:format] || DEFAULT_AUDIO_FORMAT
     "mplayer -af volnorm=1 -dumpaudio \"#{@video_path}\" -dumpfile \"#{@audio_destination}\""
+  end
+  
+  def normalize_command
+    "mplayer -af volnorm=1 \"#{@audio_destination}\" -o \"#{@audio_destination}\""
   end
   
   def ffmpeg_conversion_command(options = {})
@@ -230,8 +251,14 @@ class VideoStream
     conversion_command = [transcoder.to_s,"conversion_command"].join("_").to_sym
     conversion_options = {}
     command = self.send(conversion_command, conversion_options)
+    block_log "Processing with FFMpeg"
     log "Converting with #{command}"
     system command
+    block_log "Processing with Mplayer"
+    if normalize?
+      log "Normalizing audio with #{normalize_command}"
+      system normalize_command
+    end
     @audio_path = @audio_destination
     @audio_processed = true
     return @audio_path
@@ -239,16 +266,15 @@ class VideoStream
   
   def post_process
     file_location = (@audio_path || default_audio_destination)
-    info_script = File.join ROOT, "scripts", "find_info.rb"
-    tag_script     = File.join ROOT, "scripts", "add_tag.rb"
-    puts "Renaming #{file_location}"
-    pp_script = "echo \"#{file_location}\" | #{info_script} | #{tag_script}"
-    puts "Post process script - #{pp_script}"
+    find_info_script = File.join ROOT, "scripts", "find_info.rb"
+    add_tag_script     = File.join ROOT, "scripts", "add_tag.rb"
+    pp_script = "echo \"#{file_location}\" | #{find_info_script} | #{add_tag_script}"
+    block_log "Post Processing  - (Looking up possible track info and adding ID3 tags if exists"
+    log "Post process script - #{pp_script}"
     result = IO.popen(pp_script).read
-    #result = IO.popen("echo \"#{file_location}\"").read
-    puts "new filename #{result}"
+    log result
     @audio_path = file_location
-    self.attributes = { :audio_filename =>file_location }
+    self.attributes = { :audio_filename => file_location }
     self.save
     return result
   end

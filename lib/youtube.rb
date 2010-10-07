@@ -10,7 +10,7 @@ require 'rack'
 
 
 DEFAULT_DOWNLOAD_LOCATION = "/Volumes/justin/youtube"
-
+YT_LOG_LEVEL = "WARN"
 
 
 def log(entry)
@@ -24,15 +24,15 @@ class String
     delimiter = (options[:delimiter] ||= /\|/)
     delimiter = Regexp.new(Regexp.escape(delimiter.to_s)) if delimiter.is_a? String
     min_size = (options[:min_size] ||= 4)
-    log "Delimiting: #{self} with #{delimiter.to_s}"
+    log "Delimiting: #{self} with #{delimiter.to_s}" if YT_LOG_LEVEL == :debug
     #s = CGI.unescape(self.to_s).to_s
     if !not_urls
       parts = CGI.unescape(self).split(delimiter).map(&:strip).compact.select{|st|  st =~ /^http/ }
-      log "Delimited Parts were #{parts.inspect}"
+      log "Delimited Parts were #{parts.inspect}" if YT_LOG_LEVEL == :debug
       return parts.map{|st| st.gsub(/\,[0-9]+$/,'').fetch_as_url(:limit => 10)}
     else
       parts = self.split(delimiter).map(&:strip).compact
-      log "Delimited  Parts were #{parts.inspect}"
+      log "Delimited  Parts were #{parts.inspect}" if YT_LOG_LEVEL == :debug
       return parts
     end
   end
@@ -76,7 +76,7 @@ class String
   rescue => e
     log "New format could not be saved to DB: " + e.message
   end
-    log params.to_yaml
+    log params.to_yaml  if YT_LOG_LEVEL == :debug
     case response
       when Net::HTTPSuccess     then return params
       when Net::HTTPRedirection then return fetch_as_url(:referrer => response['location'], :limit => limit - 1)
@@ -136,7 +136,7 @@ class YouTubeResource
     else
       @user = @title = @video_id = @length = nil
     end
-    log "NEW YOUTUBE RES: #{@config.to_yaml}"
+    log "NEW YOUTUBE RES: #{@config.to_yaml}"  if YT_LOG_LEVEL == :debug
     #fh = `curl -m 7 -s -r 0-2000 \"#{url}\" > tmp.tmp`
     #fh = `mdls tmp.tmp`
     #FileUtils.rm "tmp.tmp"

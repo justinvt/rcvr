@@ -13,6 +13,19 @@ class Video
     @v.process_audio
   end
   
+  def self.pattern
+    files = all.map(&:video_id)
+    characters = files.join.split(/./).uniq
+    lengths = files.map{|f| f.length }
+    min_length = lengths.min
+    max_length = lengths.max
+    set_length = lengths.uniq.size == 1
+    ({:characters => characters, :lengths => lengths, :set_length => set_length})
+    regex = '[a-zA-Z0-9\-_]{'+"#{min_length},#{max_length}" + '}'
+    log "REGEX - #{regex}"
+    Regexp.new(regex)
+  end
+  
   
 end
 

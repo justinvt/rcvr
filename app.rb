@@ -39,11 +39,27 @@ if ENVIRONMENT == :development
  # VideoStream.delete_all_source
 end
 
+
+puts "=" * 50
+puts "BOOTING APP"
+puts "=" * 50
+
 unless ARGV[0].nil?
   set :run, false
   url_or_id = ARGV[0]
+  #If no match it's an ID or search query
+  unless url_or_id =~ /^(http|www\.youtube\.com|youtube\.com)/
+    unless url_or_id =~ Video.pattern
+      puts "Searching youtube for #{url_or_id}"
+      search = Search.new(url_or_id)
+      puts "Found match - " + search.first.video_id
+      url_or_id = Search.vid(search.first)
+    end
+  end
+  puts "Retrieving Video information"
   @video_id = YouTube.get_video_id(url_or_id)
   @v = VideoStream.first(:video_id => @video_id, :format_id => "18")
+  puts "Retrieving Video information"
   if @v.nil?
     yt = YouTube.new(@video_id, "18")
     yt.retrieve

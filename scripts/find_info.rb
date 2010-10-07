@@ -49,7 +49,7 @@ require 'lastfm'
      response["filename"] = filename
      puts response.to_yaml
   rescue => e
-    puts ({:error => {:message => e.message }}).to_yaml
+    puts ({:error => {:message => e.message }, :filename => filename}).to_yaml
   end
    
 

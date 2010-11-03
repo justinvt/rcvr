@@ -1,3 +1,5 @@
+require 'yaml'
+
 class VideoStream
   include DataMapper::Resource
 
@@ -14,6 +16,7 @@ class VideoStream
   property :progress, Integer
   property :content_length, Integer
   property :audio_filename, Text
+  property :track_info, Text
   
  # validates_uniqueness_of :url
   
@@ -42,7 +45,43 @@ class VideoStream
       vs.delete_source
       vs.destroy
     end
-  end 
+  end
+  
+  def thumbnail
+    "http://i1.ytimg.com/vi/#{video_id}/default.jpg"
+  end
+  
+  def album_thumb
+    @v.audio_data["track"]["album"]["image"][0]["#text"] rescue nil
+  end
+  
+  def artist
+    @v.audio_data["track"]["artist"]["name"] rescue nil
+  end
+  
+  def artist_url
+    @v.audio_data["track"]["artist"]["url"] rescue nil
+  end
+  
+  def track
+    @v.audio_data["track"]["name"] rescue nil
+  end
+  
+  def track_url
+     @v.audio_data["track"]["url"] rescue nil
+  end
+  
+  def album
+     @v.audio_data["track"]["album"]["title"] rescue nil
+  end
+  
+  def album_url
+     @v.audio_data["track"]["album"]["url"] rescue nil
+  end
+  
+  def audio_data
+    self.track_info.nil? ? "" : YAML::load( self.track_info )
+  end
   
   
 
@@ -157,13 +196,14 @@ class VideoStream
       percentage = completed ? 100 : (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
-      #log percentage
+      log percentage
       if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
       else
          @progress_file.puts percentage
       end
+      @progress_file.close
     end
   end
   
@@ -268,9 +308,11 @@ class VideoStream
     block_log "Post Processing  - (Looking up possible track info and adding ID3 tags if exists"
     log "Post process script - #{pp_script}"
     result = IO.popen(pp_script).read
-    log result
+    log "RESULT WAS: " + result
     @audio_path = file_location
-    self.attributes = { :audio_filename => file_location }
+    parsed_track_data = result.split(/[\=]+/)[1]
+    track_parse_error = parsed_track_data.match(/error/)
+    self.attributes = { :audio_filename => file_location, :track_info =>  track_parse_error ? nil : parsed_track_data  }
     self.save
     return result
   end

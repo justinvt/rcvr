@@ -1,7 +1,26 @@
 .downloading
+  - if @v.track_info
+    .track_info
+      %h3 Track Info
+      .thumb
+        %img{:src => @v.album_thumb }
+      .values
+        .artist.entry
+          %span.title Artist
+          %span.value
+            %a{:href => @v.artist_url}= @v.artist
+        .track.entry
+          %span.title Title
+          %span.value
+            %a{:href => @v.track_url}= @v.track
+        .album.entry
+          %span.title Album
+          %span.value
+            %a{:href => @v.album_url}= @v.album
   %h1
     %span.intro
       Downloading:
+    %img.thumb{:src => @v.thumbnail}
     %span.title= @v.parent.title
     %span.video_id= @v.parent.video_id
   .status=" "

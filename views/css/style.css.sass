@@ -1,4 +1,6 @@
 body
+  padding: 0
+  margin: 0
   font-family: "Arial"
 
 
@@ -8,12 +10,40 @@ label
     color: #ccc
     font-size: 0.75em
 
+.content
+  padding: 10px
+
 #home
   .nav
     display: none
     
 .header
+  padding: 7px 10px
+  background: #000
+  border-width: 0 0 3px 0
+  border-color: #ddd
+  border-style: solid
+  .logo
+    display: inline
+    color: #fff
+    font-size: 1.2em
+    text-transform: uppercase
+    
+  .search
+    float: right
+    .text
+      width: 30em
+      padding: 3px
+    .submit
+      cursor: pointer
+      padding: 2px
+    input
+      font-weight: bold
+      border: solid 0px #ccc
+    *
+      display: inline
   .nav
+    display: none
     position: absolute
     top: 0px
     right: 0px
@@ -25,53 +55,138 @@ label
       text-decoration: none
 
 .footer
+  border-width: 1px 0 0 0
+  border-color: #aaccff
+  border-style: solid
+  background: #fafaff
+  position: absolute
+  width: 100%
+  bottom: 0
+  left: 0
   .recents
     h3
-      margin: 0 0 1em 0
-      font-weight: normal
+      display: inline
+      color: #4183C4
+      margin: 0 0 0.5em 0
+      font-weight: bold
     padding: 5px
-    border: solid 1px #000
-    width: 500px
+    border-width: 0 0 0 0
+    border-style: solid
+    border-color: #000
     font-size: 0.7em
-    margin: 100px 0 0 0
     .recent
       display: inline
       a
-        background: #000
+        text-decoration: none
+        padding: 3px
+        background: none
+        color: #4183C4
+        font-weight: normal
+        border-width: 0
+        border-color: #000
+        border-style: solid
+      a:hover
+        background: #81b3ff
         color: #fff
-        font-weight: bold
 
 .downloading
+  .track_info
+    margin: 10px 30px 0 0
+    h3
+      color: #666
+      margin: 5px 0 0px 10px
+    -moz-border-radius: 10px
+    border-radius: 10px
+    font-size: 0.8em
+    color: #999
+    width: 300px
+    .thumb
+      img
+        width: 64px
+        height: 64px
+      float: left
+      margin: 10px
+      border: solid 5px #ccc
+    .values
+      margin: 15px 10px 0 10px
+      float: left
+    float: right
+    background: #fafafa
+    padding: 5px
+    .entry
+      margin: 0 0 8px 0
+    .title
+      color: #aaa
+      display: block
+      float: left
+      width: 50px
+    .value
+      font-weight: bold
+      a
+        color: #666
   h1
     letter-spacing: -0.06em
+    .thumb
+      width: 120px
+      height: 90px
+      border: solid 5px #ddd
+      margin: 0 10px 0 0
     .intro
       display: none
     .title
+      position: relative
+      top: -60px
       color: #666
     .video_id
+      position: relative
+      top: -63px
       font-size: 0.5em
       color: #ccc
+  .controls
+    position: relative
+    left: 150px
+    top: -70px
+    width: 500px
+    background: #fafafa
+    padding: 7px
+    input
+      padding: 4px
+      border: none
+      background: #ccc
+      color: #fff
+      -moz-border-radius: 3px
+      border-radius: 3px
+      text-transform: capitalize
+      cursor: pointer
+      margin: 0 10px 0 0
+    input:hover
+      background: #999 
   .links
+    margin: 60px 0 0 0
     div
-      margin: 0.3em 0 0 0
+      margin: 1em 0 0 0
     .label
       color: #aaa
       padding: 0 20px 0 0
     a
-      color: #77bbff
+      color: #4183C4
       font-weight: bold
   .status
+    width: 500px
+    text-align: left
     color: #aaa
+    margin: -20px 0 0 0
     .downloading
       color: orange
-      border: solid 2px orange
+      border-color: orange
     .converting
       color: pink
-      border: solid 2px pink
+      border-color: pink
     .completed
       color: green
-      border: solid 2px green
+      border-color: green
     span
+      border: solid 2px #ccc
       font-weight: bold
       margin: 1em 0
       text-transform: uppercase
@@ -91,22 +206,25 @@ label
 .video_download
   width: 500px
   margin: 100px auto auto auto
-  border: solid 15px #aaa
+  border: solid 10px #4183C4
   padding: 30px
 
   .field
     margin: 0 0 10px 0
     width: auto
+    text-align: center
 
     .examples
       font-size: 0.7em
       text-align: center
       margin: 20px 0
       h3
+        display: none
         color: #999
         margin: 1em 0 0.5em 0
         font-weight: normal
       .example
+        margin: 0.5em 0 0 0
         color: #ccc
 
 
@@ -115,7 +233,7 @@ label
       display: block
       font-weight: bold
       font-size: 1.5em
-      color: #888
+      color: #4183C4
       text-align: center
 
   .text
@@ -129,6 +247,14 @@ label
 
   .submit
     text-align: right
+    margin: 20px 0 0 0
+    input
+      border: solid 2px #61a3ff
+      color: #fff
+      font-weight: bold
+      background: #81b3ff
+      padding: 5px
+      cursor: pointer
 
 
   

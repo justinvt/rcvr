@@ -1,6 +1,9 @@
 var completed = 0;
 var update_interval = 1500;//milliseconds
 var progress_update_base_url = "/progress/"
+var reprocess_base_url = "/youtube/reprocess/"
+var redownload_base_url = "/youtube/redownload/"
+var retag_base_url = "/youtube/retag/"
 var progress_selector = ".progress"
 var status_selector   = ".status"
 var video_selector=".links .video"
@@ -28,6 +31,27 @@ function jsonToVideoLink(json){
 
 function setStatus(state){
 	$(status_selector).html("<span class='" + state + "'>" + status_messages[state] + "</span>")
+}
+
+function reprocessAudio(video_id){
+	var reprocess_url = reprocess_base_url + video_id
+	$.get(reprocess_url, function(data){
+		return true
+	})
+}
+
+function redownload(video_id){
+	var redownload_url = redownload_base_url + video_id
+	$.get(redownload_url, function(data){
+		return true
+	})
+}
+
+function retag(video_id){
+	var retag_url = retag_base_url + video_id
+	$.get(retag_url, function(data){
+		return true
+	})
 }
 
 function getProgress(video_id){
@@ -69,5 +93,18 @@ $(document).ready(function(){
 		var url_parts =  location.href.split("/")
 		var video_id = url_parts[url_parts.length - 1]
 		getProgress(video_id)
+		$("h1").after("<div class='controls'><input id='retag' type='button' value='retag audio'/><input id='redownload' type='button' value='resume download'/><input id='reprocess' type='button' value='reprocess audio'/></div>")
+		$("#reprocess").click(function(){
+			reprocessAudio(video_id)
+			setTimeout("getProgress(\"" + video_id + "\")", update_interval )
+		})
+		$("#redownload").click(function(){
+			redownload(video_id)
+			setTimeout("getProgress(\"" + video_id + "\")", update_interval )
+		})
+		$("#retag").click(function(){
+			retag(video_id)
+			setTimeout("getProgress(\"" + video_id + "\")", update_interval )
+		})
 	}
 })

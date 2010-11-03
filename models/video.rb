@@ -26,6 +26,10 @@ class Video
     Regexp.new(regex)
   end
   
+  def thumbnail
+    "http://i1.ytimg.com/vi/#{video_id}/default.jpg"
+  end
+  
   
 end
 

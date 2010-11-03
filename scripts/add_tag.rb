@@ -97,6 +97,7 @@ end
 unless song_info.nil?
   
   puts "Song info parsed OK"
+  puts "===========\n" + song_info.to_yaml + "\n========="
   
   artist = song_info["track"]["artist"]["name"]  rescue DEFAULT_ARTIST
   track  = song_info["track"]["name"]            rescue DEFAULT_TRACK_NAME

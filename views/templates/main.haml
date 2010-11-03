@@ -1,15 +1,21 @@
 !!!
 %html
   %head
-    %title= "RECEIVER"
+    %title= "RCVR"
     %link{:rel => "stylesheet", :href => "/style.css", :type => "text/css", :charset => "utf-8", :media => "screen"}/
     %script{:type => "text/javascript", :src => "/javascripts/jquery.js"}
     %script{:type => "text/javascript", :src => "/javascripts/progress.js"}
   %body{:id => @current_action}
     .header
+      .logo RCVR
+      .search
+        %form{:method => :get, :action => "/youtube/audio"}
+          %input{:class => :text, :type => :text, :length => 50, :name => :video_id}
+          %input{:class => :submit, :type => :submit, :value => "Download Audio"}
       .nav
         %a{:href => "/"}= "Home/Download"
-    = yield
+    .content
+      = yield
     .footer
       .recents
         %h3 Recents

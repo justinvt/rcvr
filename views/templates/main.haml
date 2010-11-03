@@ -1,9 +1,18 @@
 !!!
 %html
   %head
-    %title= "You Dun Downloaded Some Shit"
+    %title= "RECEIVER"
     %link{:rel => "stylesheet", :href => "/style.css", :type => "text/css", :charset => "utf-8", :media => "screen"}/
     %script{:type => "text/javascript", :src => "/javascripts/jquery.js"}
     %script{:type => "text/javascript", :src => "/javascripts/progress.js"}
-  %body
+  %body{:id => @current_action}
+    .header
+      .nav
+        %a{:href => "/"}= "Home/Download"
     = yield
+    .footer
+      .recents
+        %h3 Recents
+        - session[:recents].uniq.each do |recent|
+          .recent
+            %a{:href => "/downloading/" + recent }= recent

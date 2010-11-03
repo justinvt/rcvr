@@ -1,17 +1,17 @@
 .content
-  %form.video_download{:method => :get, :action => "/youtube/audio/"}
+  %form.video_download{:method => :get, :action => "/youtube/audio"}
     .field.text
       %label
-        YouTube ID or URL
-        %span.note
-          .examples
-            Examples
-            .example
-              ="http://www.youtube.com/watch?v=RxLY9l5Fmmc,"
-            .example
-              ="http://www.youtube.com/v/RxLY9l5Fmmc,"
-            .example 
-              ="RxLY9l5Fmmc"
+        Enter a YouTube ID or URL
+      %span.note
+        .examples
+          %h3 Examples
+          .example
+            ="http://www.youtube.com/watch?v=RxLY9l5Fmmc"
+          .example
+            ="http://www.youtube.com/v/RxLY9l5Fmmc"
+          .example 
+            ="RxLY9l5Fmmc"
       %input{:type => :text, :length => 50, :name => :video_id}
     .field.submit
       %input{:type => :submit, :value => "Download Audio"}

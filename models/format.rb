@@ -8,6 +8,10 @@ class Format
   property :extension, String
   
   validates_uniqueness_of :itag
+  
+  def calc_ext
+    mime.split(/[^a-z]+/).last
+  end
 
 
 

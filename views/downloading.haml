@@ -1,4 +1,11 @@
-%h1
-  Downloading: 
-  = @v.parent.title
-.progress
+.downloading
+  %h1
+    %span.intro
+      Downloading:
+    %span.title= @v.parent.title
+    %span.video_id= @v.parent.video_id
+  .status=" "
+  .progress= " "
+  .links
+    .audio=" "
+    .video=" "

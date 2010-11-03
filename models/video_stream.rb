@@ -150,19 +150,14 @@ class VideoStream
   end
   
   
-  def set_progress(size)
+  def set_progress(size, completed = nil)
     #TODO do this right
-    if @progress_file
-    elsif File.exist?(progress_file_path)
-      @progress_file = File.new(progress_file_path,"a")
-    else
-      @progress_file = File.new(progress_file_path,"w+")
-    end
-    if update_progress?# To update at data thresholds use update_progress(size, :method => :data)
-      percentage = (100 * (size.to_f/self.content_length.to_f)).to_s
+    @progress_file = File.new(progress_file_path,"a+")
+    if update_progress? || completed# To update at data thresholds use update_progress(size, :method => :data)
+      percentage = completed ? 100 : (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
-      log percentage
+      #log percentage
       if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
@@ -195,11 +190,12 @@ class VideoStream
           set_progress(size)
         }).read
       f.close
-      @progress_file.close if @progress_file
       File.rename f.path, @video_destination
     rescue => e
       raise "Could not be downloaded to #{@video_destination} \n\n #{e.message} \n\n #{e.backtrace.join("\n")}"
     end
+    set_progress(100, true)
+    @progress_file.close if @progress_file
     @saved = true
     @video_path = @path = File.expand_path(@video_destination)
     log "File can be viewed at #{@path}"

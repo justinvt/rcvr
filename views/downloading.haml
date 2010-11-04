@@ -1,5 +1,5 @@
 .downloading
-  - if @v.track_info
+  - unless @v.track_info.nil?
     .track_info
       %h3 Track Info
       .thumb

@@ -14,16 +14,24 @@ label
   padding: 10px
 
 #home
-  .nav
+  .header
     display: none
+  .logo
+    font-weight: bold
+    color: #41c3f4
+    margin-top: 40px
+    text-align: center
+    font-size: 5em
+    letter-spacing: -0.06em
     
 .header
   padding: 7px 10px
   background: #000
-  border-width: 0 0 3px 0
-  border-color: #ddd
+  border-width: 0 0 2px 0
+  border-color: #444
   border-style: solid
   .logo
+    font-weight: bold
     display: inline
     color: #fff
     font-size: 1.2em
@@ -138,6 +146,7 @@ label
       top: -60px
       color: #666
     .video_id
+      letter-spacing: -0.02em
       position: relative
       top: -63px
       font-size: 0.5em
@@ -149,6 +158,18 @@ label
     width: 500px
     background: #fafafa
     padding: 7px
+    #retag
+      background: #cde
+    #retag:hover
+      background: #48f
+    #redownload
+      background: #edc
+    #redownload:hover
+      background: #f84
+    #reprocess
+      background: #ced
+    #reprocess:hover
+      background: #4f8
     input
       padding: 4px
       border: none
@@ -205,8 +226,8 @@ label
 
 .video_download
   width: 500px
-  margin: 100px auto auto auto
-  border: solid 10px #4183C4
+  margin: 10px auto auto auto
+  border: solid 10px #41c3f4
   padding: 30px
 
   .field
@@ -225,15 +246,16 @@ label
         font-weight: normal
       .example
         margin: 0.5em 0 0 0
-        color: #ccc
+        color: #41c3f4
 
 
     label
+      letter-spacing: -0.05em
       margin: 0 0 10px 0
       display: block
       font-weight: bold
       font-size: 1.5em
-      color: #4183C4
+      color: #41c3f4
       text-align: center
 
   .text
@@ -242,7 +264,7 @@ label
       font-size: 1em
       width: 90%
       margin: auto
-      border: solid 1px #ccc
+      border: solid 1px #41c3f4
       padding: 5px
 
   .submit

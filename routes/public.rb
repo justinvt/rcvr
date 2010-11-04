@@ -87,10 +87,10 @@
       :url => v.url, 
       :size => v.content_length, 
       :progress => ("%3.1f" % v.get_progress).to_f, 
-      :audio_progress => v.audio_progress.to_i, 
+      :audio_progress =>  ("%3.1f" % v.audio_progress).to_f, 
       :audio_filename => v.audio_filename.to_s,
-      :ext            => v.ext,
-      :audio_data     => v.audio_data.to_json
+      :ext            => v.ext
+      #:audio_data     => v.audio_data.to_json
     }.to_json
   end
   

@@ -63,12 +63,14 @@ function getProgress(video_id){
 			audio_progress = json.audio_progress
 			audio_filename = json.audio_filename
 			if(completed>99){
+				// File is done downloading, not yet converted
 				if(audio_filename==""){
 					setStatus("converting");
-					$(progress_selector).html("")
+					$(progress_selector).addClass("conversion").html("<span class='percent'>" + audio_progress + "</span><span class='percent_sign'>%</span>")
 					$(video_selector).html("<span class='label'>video:</span> " + jsonToVideoLink(json));
 					setTimeout("getProgress(\"" + video_id + "\")", update_interval )
 				}
+				// File has been downloaded and conversion is complete
 				else{
 					setStatus("completed");
 					$(progress_selector).html("")
@@ -76,6 +78,7 @@ function getProgress(video_id){
 					$(video_selector).html("<span class='label'>video:</span> " + jsonToVideoLink(json));
 				}
 			}
+			// File is in the process of downloading
 			else{
 				setStatus("downloading");
 				$(progress_selector).html("<span class='percent'>" + completed + "</span><span class='percent_sign'>%</span>")
@@ -89,11 +92,11 @@ function getProgress(video_id){
 
 $(document).ready(function(){
 	if(location.href.match(/downloading/)){
-		title = $(".title").text()
+		title = $("h1 .title").text()
 		var url_parts =  location.href.split("/")
 		var video_id = url_parts[url_parts.length - 1]
 		getProgress(video_id)
-		$("h1").after("<div class='controls'><input id='retag' type='button' value='retag audio'/><input id='redownload' type='button' value='resume download'/><input id='reprocess' type='button' value='reprocess audio'/></div>")
+		$("h1").after("<div class='controls'><input id='retag' type='button' value='retag audio'/><input id='redownload' type='button' value='restart download'/><input id='reprocess' type='button' value='reprocess audio'/></div>")
 		$("#reprocess").click(function(){
 			reprocessAudio(video_id)
 			setTimeout("getProgress(\"" + video_id + "\")", update_interval )

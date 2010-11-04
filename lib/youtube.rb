@@ -54,7 +54,7 @@ class String
       :ip     => params["query"]["ip"]
     )
     response = nil
-    log "Fetching #{path}"
+    #log "Fetching #{path}"
     Net::HTTP.start(url.host, 80) {|http|
       response = http.head(ending)
       n_headers = response.to_hash

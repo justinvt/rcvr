@@ -51,37 +51,39 @@ class VideoStream
     "http://i1.ytimg.com/vi/#{video_id}/default.jpg"
   end
   
-  def album_thumb
-    @v.audio_data["track"]["album"]["image"][0]["#text"] rescue nil
-  end
-  
-  def artist
-    @v.audio_data["track"]["artist"]["name"] rescue nil
-  end
-  
-  def artist_url
-    @v.audio_data["track"]["artist"]["url"] rescue nil
-  end
-  
-  def track
-    @v.audio_data["track"]["name"] rescue nil
-  end
-  
-  def track_url
-     @v.audio_data["track"]["url"] rescue nil
-  end
-  
-  def album
-     @v.audio_data["track"]["album"]["title"] rescue nil
-  end
-  
-  def album_url
-     @v.audio_data["track"]["album"]["url"] rescue nil
-  end
-  
   def audio_data
     self.track_info.nil? ? "" : YAML::load( self.track_info )
   end
+  
+  def album_thumb
+    audio_data["track"]["album"]["image"][0]["#text"] rescue nil
+  end
+  
+  def artist
+    audio_data["track"]["artist"]["name"] rescue nil
+  end
+  
+  def artist_url
+    audio_data["track"]["artist"]["url"] rescue nil
+  end
+  
+  def track
+    audio_data["track"]["name"] rescue nil
+  end
+  
+  def track_url
+     audio_data["track"]["url"] rescue nil
+  end
+  
+  def album
+     audio_data["track"]["album"]["title"] rescue nil
+  end
+  
+  def album_url
+     audio_data["track"]["album"]["url"] rescue nil
+  end
+  
+
   
   
 
@@ -162,6 +164,10 @@ class VideoStream
     File.join(stream_directory,"progress.txt")
   end
   
+  def conversion_progress_file_path
+    File.join(stream_directory,"conversion_progress.txt")
+  end
+  
   def update_progress?(size=nil, options ={})
     options[:method] ||= :time
     if options[:method].to_sym == :data
@@ -196,7 +202,7 @@ class VideoStream
       percentage = completed ? 100 : (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
-      log percentage
+      #log percentage
       if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
@@ -261,14 +267,24 @@ class VideoStream
   def ffmpeg_conversion_command(options = {})
     bitrate = options[:bitrate] || DEFAULT_AUDIO_BITRATE
     format  = options[:format] || DEFAULT_AUDIO_FORMAT
-    "ffmpeg -y -i \"#{@video_path}\"  -acodec libmp3lame  -ab #{bitrate} \"#{@audio_destination}\""
+    "ffmpeg -y -i \"#{@video_path}\"  -acodec libmp3lame  -ab #{bitrate} \"#{@audio_destination}\" 2> #{conversion_progress_file_path}"
   end
   
   def audio
   end
   
+  def estimated_audio_size
+    File.size(@video_path) / 3
+  end
+  
   def audio_progress
-    File.size?( default_audio_filename).to_i
+    unless File.exist?(conversion_progress_file_path)
+      return 0
+    end
+    progress_line    = IO.popen("tail -n 1 #{conversion_progress_file_path}").read.split("=")[-3]
+    current_size_kb = progress_line.to_s.gsub(/[^0-9]+/,'').to_f
+    percent = 100000 * (current_size_kb/estimated_audio_size.to_f).to_f
+    return percent.to_f
   end
   
   

@@ -54,6 +54,30 @@ function retag(video_id){
 	})
 }
 
+function setProgress(percent_complete, stage){
+	var progress_class = stage || "downloading";
+	var percent_sign   = percent_complete.length == 0 ? "" : "%"
+	var title_text     =  document.title.replace(/[ \-0-9.]+%$/,"")
+	 document.title = [ percent_complete + percent_sign, title, "RCVR"].join(" - ")
+	$(progress_selector).addClass(progress_class).html("<span class='percent'>" + percent_complete + "</span><span class='percent_sign'>" +  percent_sign  + "</span>")
+
+}
+
+function consoleOutput(output){
+	var file_console = $(".process_console textarea")
+	if(file_console.length == 0){
+		$(".process_console").append("<textarea></textarea>")
+	}
+	if(output.length == 0 || output == null){
+			$(".process_console").hide()
+	}
+	else{
+		$(".process_console").show()
+	}
+	file_console.val(output)
+	
+}
+
 function getProgress(video_id){
 	$.ajax({
 		url: progress_update_base_url + video_id,
@@ -65,23 +89,29 @@ function getProgress(video_id){
 			if(completed>99){
 				// File is done downloading, not yet converted
 				if(audio_filename==""){
+					$(".process_console").show()
 					setStatus("converting");
-					$(progress_selector).addClass("conversion").html("<span class='percent'>" + audio_progress + "</span><span class='percent_sign'>%</span>")
+					setProgress("")
+					//setProgress(audio_progress,"converting")
+					consoleOutput(audio_progress)
 					$(video_selector).html("<span class='label'>video:</span> " + jsonToVideoLink(json));
 					setTimeout("getProgress(\"" + video_id + "\")", update_interval )
 				}
 				// File has been downloaded and conversion is complete
 				else{
+						$(".process_console").hide()
 					setStatus("completed");
-					$(progress_selector).html("")
+					setProgress("")
 					$(audio_selector).html("<span class='label'>audio:</span> " + filenameToLink(audio_filename));
 					$(video_selector).html("<span class='label'>video:</span> " + jsonToVideoLink(json));
 				}
 			}
 			// File is in the process of downloading
 			else{
+				$(".process_console").hide()
+				consoleOutput(audio_progress)
 				setStatus("downloading");
-				$(progress_selector).html("<span class='percent'>" + completed + "</span><span class='percent_sign'>%</span>")
+				setProgress(completed)
 				setTimeout("getProgress(\"" + video_id + "\")", update_interval )
 			}
 		},
@@ -92,6 +122,7 @@ function getProgress(video_id){
 
 $(document).ready(function(){
 	if(location.href.match(/downloading/)){
+		$(".process_console").hide()
 		title = $("h1 .title").text()
 		var url_parts =  location.href.split("/")
 		var video_id = url_parts[url_parts.length - 1]

@@ -1,14 +1,26 @@
 
+  def process_query(search)
+    @search_term = search
+    if @search_term  =~ Video.pattern
+      @video_id = YouTube.get_video_id(@search_term)
+    else
+      log "Searching youtube for #{@search_term}"
+      search = Search.new(@search_term)
+      log "Found match - " + search.first.video_id
+      @video_id = Search.vid(search.first)
+    end
+    return @video_id
+  end
 
   def get_stream
-    @video_id = YouTube.get_video_id(params[:video_id])
-    @v = VideoStream.first(:video_id => @video_id, :format_id => "18")
+    @video_id ||= params[:video_id]
+    @format = VideoStream::PREFERRED_FORMAT
+    @v = VideoStream.first(:video_id => @video_id, :format_id => @format)
     if @v.nil?
-      yt = YouTube.new(@video_id, "18")
+      yt = YouTube.new(@video_id, @format)
       yt.retrieve
-      @v = VideoStream.first(:video_id => @video_id, :format_id => "18") || VideoStream.first(:video_id => @video_id)
+      @v = VideoStream.first(:video_id => @video_id, :format_id => @format) || VideoStream.first(:video_id => @video_id)
     end
-   # @v.download
     return @v
   end
   
@@ -27,19 +39,16 @@
   end
   
   get '/youtube/reprocess/:video_id' do
-    @spock = Spork.spork(:logger => @log) do
+    @reprocess = fork do
       @v = get_stream
-      @v.process_audio
-      @v.post_process
+      @v.process_audio(:post_process => true )
     end
   end
   
   get '/youtube/redownload/:video_id' do
-    @spock = Spork.spork(:logger => @log) do
+    @download = fork do
       @v = get_stream
-      @v.download
-      @v.process_audio
-      @v.post_process
+      @v.download(:post_process => true, :process_audio => true)
     end
   end
   
@@ -55,14 +64,14 @@
   end
   
   get '/youtube/audio' do
-    session[:recents] << YouTube.get_video_id(params[:video_id])
-    @spock = Spork.spork(:logger => @log) do
+    @video_id = params[:video_id] || process_query(params[:search_query])
+    session[:recents] << @video_id
+    @handle_dl = fork do
       @v = get_stream
       @v.download
-      @v.process_audio
-      @v.post_process
+      @v.process_audio(:post_process => true )
     end
-    redirect "/downloading/#{ YouTube.get_video_id(params[:video_id])}", 302
+    redirect "/downloading/#{@video_id}", 302
    # send_file @v.audio_path,
   #    :type => 'audio/mpeg',
   #    :disposition => 'attachment'
@@ -87,8 +96,8 @@
       :url => v.url, 
       :size => v.content_length, 
       :progress => ("%3.1f" % v.get_progress).to_f, 
-      :audio_progress =>  ("%3.1f" % v.audio_progress).to_f, 
-      :audio_filename => v.audio_filename.to_s,
+      :audio_progress =>  v.converstion_tail, 
+      :audio_filename => v.audio_saved? ? v.audio_filename.to_s : "",
       :ext            => v.ext
       #:audio_data     => v.audio_data.to_json
     }.to_json

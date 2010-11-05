@@ -15,8 +15,13 @@ class VideoStream
   property :http_status, String
   property :progress, Integer
   property :content_length, Integer
+  property :audio_filesize, Integer
   property :audio_filename, Text
   property :track_info, Text
+  property :tagged, Boolean
+  property :normalized, Boolean
+  property :converted, Boolean
+  property :directory, String
   
  # validates_uniqueness_of :url
   
@@ -25,8 +30,17 @@ class VideoStream
   DOWNLOAD_DIR = File.join [File.dirname(__FILE__), "..", "public", "scrape"]
   DEFAULT_AUDIO_FORMAT  = :mp3
   DEFAULT_AUDIO_BITRATE =  "192k"
+  DEFAULT_AUDIO_CODEC   = :libmp3lame
   DEFAULT_TRANSCODER = :ffmpeg
   PROGRESS_STORAGE = :file
+  NORMALIZE_AUDIO   = true
+  PREFERRED_FORMAT = "5"
+  
+  def self.sanity_check
+    self.all.each do |vs|
+      vs.rename_dir
+    end
+  end
   
   def block_log(title, message=nil, options ={})
     log "\n\n"
@@ -82,10 +96,6 @@ class VideoStream
   def album_url
      audio_data["track"]["album"]["url"] rescue nil
   end
-  
-
-  
-  
 
   def delete_source
     FileUtils.rm_r stream_directory rescue log "#{stream_directory} Couldn't be deleted"
@@ -103,14 +113,16 @@ class VideoStream
    # Basically strip out the non-ascii alphabets too 
    # and replace with x. 
    # You don't want all _ :)
-    fn = fn.gsub(/[^0-9A-Za-z.\- &]/, ' ').gsub(/[ ]+\./, '.').strip
+    fn = fn.gsub(/\s/,"_").gsub(/[^0-9A-Za-z.\- &]/, '').gsub(/[ ]+\./, '.').strip
     return fn
   end
-
-  
   
   def parent
     Video.first({:video_id => video_id})
+  end
+  
+  def formatt
+    Format.first({:id=> format_id})
   end
   
   def title
@@ -134,30 +146,76 @@ class VideoStream
     [ title, @audio_format.to_s ].join "." 
   end
   
-  
-  def stream_directory(location = DOWNLOAD_DIR)
-     File.expand_path(File.join(location, video_id))
+  def rename_dir
+    log "Checking #{id} / (video id #{video_id})"
+    if File.exist?(named_directory) && !File.exist?(stream_directory)
+      log "Moving #{named_directory} to  #{stream_directory}"
+      #FileUtils.mv named_directory, stream_directory
+     # FileUtils.mkdir stream_directory
+      FileUtils.cp_r named_directory, stream_directory
+      FileUtils.rm_r named_directory
+      if !audio_filename.nil?
+        audio_dirname = File.dirname(audio_filename)
+        audio_basename = File.basename(audio_filename)
+        moved_audio      = File.join(stream_directory,audio_basename)
+        if audio_dirname == named_directory && File.exist?(moved_audio)
+          log "Updating database to reflect changes (Renaming #{audio_filename} to #{moved_audio})"
+          self.attributes = { 
+            :audio_filename => moved_audio,
+            :directory      => stream_directory
+          }
+          self.save
+        end
+      end
+    end
+    log "Changing to #{stream_directory}"
+              self.attributes = { 
+            :directory      => stream_directory
+          }
+          self.save
+    return stream_directory
   end
   
-  def default_video_destination(location = DOWNLOAD_DIR)
-    File.join stream_directory(location), filename
+  def named_directory(options = {})
+    options[:location] ||= DOWNLOAD_DIR
+    VideoStream.all({:video_id => self.video_id}).map{|vs| vs.audio_filename.nil? ? nil : File.dirname(vs.audio_filename)}.compact.uniq.first || File.expand_path(File.join(options[:location], video_id))
   end
   
-  def default_audio_destination(location = DOWNLOAD_DIR)
-    File.join stream_directory(location), default_audio_filename
+  def stream_directory(options = {})
+    options[:location] ||= DOWNLOAD_DIR
+    File.expand_path(File.join(options[:location], video_id + "_" + format_id))
   end
   
-  def saved?(location = DOWNLOAD_DIR)
+  def default_video_destination(options = {})
+    options[:location] ||= DOWNLOAD_DIR
+    File.join stream_directory(options), filename
+  end
+  
+  def default_audio_destination(options = {})
+    options[:location] ||= DOWNLOAD_DIR
+    File.join stream_directory(options), default_audio_filename
+  end
+  
+  def saved?(options = {})
+    options[:location] ||=  DOWNLOAD_DIR
     if (@saved && File.exist?(@video_path))
       return true
-    elsif File.exist?(default_video_destination(location))
-     @video_path = default_video_destination(location)
-     return true
+    elsif File.exist?(default_video_destination(options))
+      @video_path = default_video_destination(options)
+      return true
+    else
+      return false
     end
   end
   
-  def audio_saved?(location = DOWNLOAD_DIR)
-    (@audio_processed && File.exist?(@audio_path)) || File.exist?(default_audio_destination(location))
+  def audio_saved?(options = {})
+    (@audio_processed == true && File.exist?(@audio_path)) || 
+      (@audio_processed == true && File.exist?(default_audio_destination(options))) ||
+      (processed? &&  File.exist?(default_audio_destination(options)))
+  end
+  
+  def processed?
+    converted && tagged && (normalize? ? normalized : true)
   end
   
   def progress_file_path
@@ -202,7 +260,7 @@ class VideoStream
       percentage = completed ? 100 : (100 * (size.to_f/self.content_length.to_f)).to_s
       @last_size = size
       @last_time = Time.now
-      #log percentage
+      log percentage
       if PROGRESS_STORAGE == :database
         self.attributes = { :progress => percentage }
         self.save
@@ -217,64 +275,96 @@ class VideoStream
     File.readlines(progress_file_path).last.to_f rescue 0.0
   end
   
-  def download(location = DOWNLOAD_DIR)
+  def download(options = {})
+    options[:location] ||= DOWNLOAD_DIR
+    @audio_processed = false
     log "Downloading #{filename}"
-    @video_destination = default_video_destination(location)
+    @video_destination = default_video_destination(options)
     @tmp_destination   = [ @video_destination, "part" ].join "."
-    if saved?(location)
+    if saved?(options)
       log "File already exists"
       @video_path = @video_destination
-      return @video_destination
-    end
-    log "Attempting to save to #{@video_destination}"
-    @last_size = 0
-    begin
+    elsif options[:inline]
+      options[:process_audio] = false
+      @audio_path     = @audio_destination = (@audio_path || default_audio_destination(options))
       FileUtils.mkdir_p File.dirname(@video_destination)
-      f = File.new @tmp_destination, "w+"
-      f.puts open("#{url}",
-        :progress_proc => lambda {|size|
-          set_progress(size)
-        }).read
-      f.close
-      File.rename f.path, @video_destination
-    rescue => e
-      raise "Could not be downloaded to #{@video_destination} \n\n #{e.message} \n\n #{e.backtrace.join("\n")}"
+      command = ffmpeg_inline_conversion_command
+      log "Downloading and converting inline \n #{command}"
+      system command
+    else
+      log "Attempting to save to #{@video_destination}"
+      @last_size = 0
+      begin
+        FileUtils.mkdir_p File.dirname(@video_destination)
+        f = File.new @tmp_destination, "w+"
+        f.puts open("#{url}",
+          :progress_proc => lambda {|size|
+            set_progress(size)
+          }).read
+        f.close
+        File.rename f.path, @video_destination
+      rescue => e
+        raise "Could not be downloaded to #{@video_destination} \n\n #{e.message} \n\n #{e.backtrace.join("\n")}"
+      end
+      set_progress(100, true)
+      @progress_file.close if @progress_file
     end
-    set_progress(100, true)
-    @progress_file.close if @progress_file
     @saved = true
     @video_path = @path = File.expand_path(@video_destination)
+    process_audio(options) if options[:process_audio]
     log "File can be viewed at #{@path}"
     return @video_path
   end
   
   
   def normalize?
-    true
+    NORMALIZE_AUDIO
+  end
+  
+  def audio_bitrate(options = {})
+    options[:bitrate] || DEFAULT_AUDIO_BITRATE
+  end
+  
+  def audio_format(options = {})
+    (options[:format] || DEFAULT_AUDIO_FORMAT).to_s
+  end
+  
+  def audio_codec(options = {})
+    (options[:audio_codec] || DEFAULT_AUDIO_CODEC).to_s
+  end
+  
+  def transcoder(options = {})
+    (options[:transcoder] || DEFAULT_TRANSCODER).to_s
   end
 
 
   def mplayer_conversion_command(options = {})
-    bitrate = options[:bitrate] || DEFAULT_AUDIO_BITRATE
-    format  = options[:format] || DEFAULT_AUDIO_FORMAT
-    "mplayer -af volnorm=1 -dumpaudio \"#{@video_path}\" -dumpfile \"#{@audio_destination}\""
-  end
-  
-  def normalize_command
-    "mplayer -af volnorm=1 \"#{@audio_destination}\" -o \"#{@audio_destination}\""
+    "mplayer  -msglevel all=9  -af volnorm=1 -dumpaudio \"#{@video_path}\" -dumpfile \"#{@audio_destination}\" >> #{conversion_progress_file_path} 2>> #{conversion_progress_file_path}"
   end
   
   def ffmpeg_conversion_command(options = {})
-    bitrate = options[:bitrate] || DEFAULT_AUDIO_BITRATE
-    format  = options[:format] || DEFAULT_AUDIO_FORMAT
-    "ffmpeg -y -i \"#{@video_path}\"  -acodec libmp3lame  -ab #{bitrate} \"#{@audio_destination}\" 2> #{conversion_progress_file_path}"
+    "ffmpeg -y -i \"#{@video_path}\" -acodec #{audio_codec(options)} -ab #{audio_bitrate(options)} \"#{@audio_destination}\" 2>> #{conversion_progress_file_path}"
   end
   
-  def audio
+  def ffmpeg_inline_conversion_command(options = {})
+    "curl \"#{url}\" | ffmpeg -y -i -  -acodec #{audio_codec(options)} -ab #{audio_bitrate(options)} \"#{@audio_destination}\" >> #{conversion_progress_file_path} 2>> #{conversion_progress_file_path}"
+  end
+  
+  def normalize_command
+    "mplayer -msglevel all=9 -af volnorm=1 \"#{@audio_destination}\" -o \"#{@audio_destination}\" >> #{conversion_progress_file_path} 2>> #{conversion_progress_file_path}"
   end
   
   def estimated_audio_size
     File.size(@video_path) / 3
+  end
+  
+  def converstion_tail(n=5)
+    if File.exist? conversion_progress_file_path
+      output = IO.popen("tail -n #{n} #{conversion_progress_file_path}").read
+      return output
+    else
+      return ""
+    end
   end
   
   def audio_progress
@@ -283,53 +373,81 @@ class VideoStream
     end
     progress_line    = IO.popen("tail -n 1 #{conversion_progress_file_path}").read.split("=")[-3]
     current_size_kb = progress_line.to_s.gsub(/[^0-9]+/,'').to_f
-    percent = 100000 * (current_size_kb/estimated_audio_size.to_f).to_f
+    percent = 1000 * 100 * (current_size_kb/estimated_audio_size.to_f).to_f
     return percent.to_f
   end
   
-  
-  
-  def process_audio(options = {})
-    location   = options[:location]   || DOWNLOAD_DIR
-    format     = options[:format]     || DEFAULT_AUDIO_FORMAT
-    transcoder = options[:transcoder] || DEFAULT_TRANSCODER
-    download unless saved?
-    @audio_destination = default_audio_destination(location)
-    if audio_saved?
-      log "Audio file already exists"
-      @audio_path = @audio_destination
-      return @audio_path
-    end
-    conversion_command = [transcoder.to_s,"conversion_command"].join("_").to_sym
-    conversion_options = {}
-    command = self.send(conversion_command, conversion_options)
-    block_log "Processing with FFMpeg"
-    log "Converting with #{command}"
-    system command
+  def normalize(options= {})
     block_log "Processing with Mplayer"
     if normalize?
       log "Normalizing audio with #{normalize_command}"
-      system normalize_command
+      output = IO.popen(normalize_command).read
+      self.attributes = { 
+        :normalized => true
+      }
+      self.save
+    end
+    return output
+  end
+  
+  def extract_audio(options = {})
+    log "extracting audio"
+    conversion_command = [transcoder(options),"conversion_command"].join("_").to_sym
+    command = self.send(conversion_command, {})
+    block_log "Processing with FFMpeg"
+    log "Converting with\n#{command}"
+    output = IO.popen(command).read
+    self.attributes = { 
+      :converted => true
+    }
+    self.save
+    return output
+  end
+  
+  def process_audio(options = {})
+    @audio_processed = false
+    download unless saved?
+    @audio_destination = default_audio_destination(options)
+    if audio_saved?
+      @audio_path = @audio_destination
+      log "Audio file already exists - #{ @audio_destination}"
+      return @audio_path
+    end
+    extract_audio(options)
+    normalize(options)
+    if options[:post_process]
+      post_process(options) 
+    else
+      log "No postprocessing - Considering audio process complete"
+      @audio_processed = true
     end
     @audio_path = @audio_destination
-    @audio_processed = true
     return @audio_path
   end
   
-  def post_process
-    file_location = (@audio_path || default_audio_destination)
-    find_info_script = File.join ROOT, "scripts", "find_info.rb"
-    add_tag_script     = File.join ROOT, "scripts", "add_tag.rb"
-    pp_script = "echo \"#{file_location}\" | #{find_info_script} | #{add_tag_script}"
-    block_log "Post Processing  - (Looking up possible track info and adding ID3 tags if exists"
-    log "Post process script - #{pp_script}"
+  def script_directory
+    File.join ROOT, "scripts"
+  end
+  
+  def post_process(options = {})
+    log "post processing"
+    @audio_path     = (@audio_path || default_audio_destination(options))
+    find_info_script   = File.join script_directory, "find_info.rb"
+    add_tag_script     = File.join script_directory, "add_tag.rb"
+    pp_script = "echo \"#{@audio_path}\" | #{find_info_script} | #{add_tag_script}"
+    block_log "Post Processing  - (Looking up possible track info and adding ID3 tags if exists \n #{pp_script}"
     result = IO.popen(pp_script).read
-    log "RESULT WAS: " + result
-    @audio_path = file_location
     parsed_track_data = result.split(/[\=]+/)[1]
     track_parse_error = parsed_track_data.match(/error/)
-    self.attributes = { :audio_filename => file_location, :track_info =>  track_parse_error ? nil : parsed_track_data  }
+    self.attributes = { 
+      :audio_filename => @audio_path,
+      :audio_filesize => File.size(@audio_path),
+      :track_info =>  track_parse_error ? nil : parsed_track_data,
+      :tagged => true
+      }
     self.save
+    log "Post processing complete"
+    @audio_processed = true
     return result
   end
   

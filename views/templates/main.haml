@@ -10,7 +10,7 @@
       .logo RCVR
       .search
         %form{:method => :get, :action => "/youtube/audio"}
-          %input{:class => :text, :type => :text, :length => 50, :name => :video_id}
+          %input{:class => :text, :type => :text, :length => 50, :name => :search_query}
           %input{:class => :submit, :type => :submit, :value => "Download Audio"}
       .nav
         %a{:href => "/"}= "Home/Download"

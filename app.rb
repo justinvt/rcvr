@@ -44,9 +44,20 @@ puts "=" * 50
 puts "BOOTING APP"
 puts "=" * 50
 
-unless ARGV[0].nil?
+if ARGV[0] == "d"
   set :run, false
-  url_or_id = ARGV[0]
+  search = Search.new(ARGV[1])
+  data = search.first.media_content
+  puts data.to_yaml
+end
+
+if ARGV[0] == "-s" && ARGV[1] == "true"
+  VideoStream.sanity_check
+end
+
+if ARGV[0].nil? && ARGV[0] == "-f"
+  set :run, false
+  url_or_id = ARGV[1]
   #If no match it's an ID or search query
   unless url_or_id =~ /^(http|www\.youtube\.com|youtube\.com)/
     unless url_or_id =~ Video.pattern

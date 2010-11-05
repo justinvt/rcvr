@@ -30,6 +30,17 @@ class Video
     "http://i1.ytimg.com/vi/#{video_id}/default.jpg"
   end
   
+  def gdata_url
+    "http://gdata.youtube.com/feeds/api/videos/#{video_id}"
+  end
+  
+  def gdata_url2
+    "http://gdata.youtube.com/feeds/api/videos?max-results=25&start-index=1&vq=#{video_id}"
+  end
+  
+  def gdata
+     Nokogiri::HTML(open(gdata_url))
+  end
   
 end
 
